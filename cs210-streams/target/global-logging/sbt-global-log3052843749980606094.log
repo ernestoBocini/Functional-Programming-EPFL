@@ -1,0 +1,7 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Grading/test, Some(c9507b73-a1e5-4313-b68f-5a2586019dac), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Grading / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/ernestobocini/epflCourses/cs-210-FP/cs210-streams/target/scala-3.2.0/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 21, Failed 0, Errors 0, Passed 21[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 2 s, completed 24-nov-2022 22.06.06[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

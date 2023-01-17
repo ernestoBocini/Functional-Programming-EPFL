@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(6a214ec5-da4c-4919-972c-b2466eb94d38), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/ernestobocini/epflCourses/cs-210/cs210-example/target/scala-3.2.0/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/ernestobocini/epflCourses/cs-210/cs210-example/target/scala-3.2.0/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 6, Failed 0, Errors 0, Passed 6[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 10 s, completed 24-set-2022 11.15.43[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

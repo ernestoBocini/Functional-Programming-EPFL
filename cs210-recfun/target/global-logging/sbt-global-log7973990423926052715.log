@@ -1,0 +1,9 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Grading/test, Some(5bcf6166-229d-489a-91bc-7e580b60269e), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Grading / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/ernestobocini/epflCourses/cs-210-FP/cs210-recfun/target/scala-3.2.0/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 19, Failed 0, Errors 0, Passed 19[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 3 s, completed 27-set-2022 22.13.50[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

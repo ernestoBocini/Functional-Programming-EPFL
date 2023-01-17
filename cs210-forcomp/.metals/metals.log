@@ -1,0 +1,2272 @@
+2022.11.17 09:49:41 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/.metals/lsp.trace.json or /Users/ernestobocini/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.11.17 09:49:41 INFO  logging to file /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/.metals/metals.log
+2022.11.17 09:49:41 INFO  Started: Metals version 0.11.9 in workspace '/Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp' for client Visual Studio Code 1.73.1.
+2022.11.17 09:49:43 INFO  time: initialize in 1.77s
+2022.11.17 09:49:48 WARN  Build server is not auto-connectable.
+2022.11.17 09:49:59 INFO  running '/Users/ernestobocini/.jabba/jdk/adopt@1.11.0-11/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/qx/mbfp35d17jz5g1qfw4xsv3yc0000gn/T/metals4727042088198119596/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.11.17 09:49:59 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/project/metals.sbt
+2022.11.17 09:49:59 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/project/project/metals.sbt
+2022.11.17 09:49:59 INFO  skipping build import with status 'Started'
+2022.11.17 09:50:02 INFO  [info] welcome to sbt 1.7.1 (AdoptOpenJDK Java 11.0.11)
+2022.11.17 09:50:06 INFO  [info] loading settings for project cs210-forcomp-build-build-build from metals.sbt ...
+2022.11.17 09:50:07 INFO  no build target found for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.1.3
+2022.11.17 09:50:08 INFO  [info] loading project definition from /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/project/project/project
+2022.11.17 09:50:11 INFO  [info] loading settings for project cs210-forcomp-build-build from metals.sbt ...
+2022.11.17 09:50:11 INFO  [info] loading project definition from /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/project/project
+2022.11.17 09:50:15 INFO  [success] Generated .bloop/cs210-forcomp-build-build.json
+2022.11.17 09:50:15 INFO  [success] Total time: 4 s, completed 17 nov 2022, 09:50:16
+2022.11.17 09:50:19 INFO  [info] loading settings for project cs210-forcomp-build from buildSettings.sbt,metals.sbt,plugins.sbt ...
+2022.11.17 09:50:19 INFO  [info] loading project definition from /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/project
+2022.11.17 09:50:21 INFO  [success] Generated .bloop/cs210-forcomp-build.json
+2022.11.17 09:50:21 INFO  [info] compiling 2 Scala sources to /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/project/target/scala-2.12/sbt-1.0/classes ...
+2022.11.17 09:50:30 INFO  [info] done compiling
+2022.11.17 09:50:30 INFO  [success] Total time: 12 s, completed 17 nov 2022, 09:50:31
+2022.11.17 09:50:34 INFO  [info] loading settings for project cs210-forcomp from assignment.sbt,build.sbt ...
+2022.11.17 09:50:36 INFO  [info] set current project to progfun1-forcomp (in build file:/Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/)
+2022.11.17 09:50:37 INFO  [success] Generated .bloop/cs210-forcomp-test.json
+2022.11.17 09:50:37 INFO  [success] Generated .bloop/cs210-forcomp.json
+2022.11.17 09:50:37 INFO  [success] Total time: 1 s, completed 17 nov 2022, 09:50:37
+2022.11.17 09:50:37 INFO  time: ran 'sbt bloopInstall' in 38s
+2022.11.17 09:50:37 INFO  Attempting to connect to the build server...
+2022.11.17 09:50:37 INFO  Bloop uses /Users/ernestobocini/Library/Caches/Coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_mac_hotspot_8u292b10.tar.gz/jdk8u292-b10/Contents/Home defined at /Users/ernestobocini/.bloop/bloop.json
+2022.11.17 09:50:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/.metals/bsp.trace.json or /Users/ernestobocini/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.11.17 09:50:38 INFO  Attempting to connect to the build server...
+2022.11.17 09:50:38 INFO  Bloop uses /Users/ernestobocini/Library/Caches/Coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_mac_hotspot_8u292b10.tar.gz/jdk8u292-b10/Contents/Home defined at /Users/ernestobocini/.bloop/bloop.json
+2022.11.17 09:50:38 INFO  Attempting to connect to the build server...
+2022.11.17 09:50:38 INFO  Bloop uses /Users/ernestobocini/Library/Caches/Coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_mac_hotspot_8u292b10.tar.gz/jdk8u292-b10/Contents/Home defined at /Users/ernestobocini/.bloop/bloop.json
+2022.11.17 09:50:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/project/.metals/bsp.trace.json or /Users/ernestobocini/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.11.17 09:50:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/project/project/.metals/bsp.trace.json or /Users/ernestobocini/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.11.17 09:50:39 INFO  time: Connected to build server in 1.67s
+2022.11.17 09:50:39 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.17 09:50:39 INFO  time: Imported build in 0.21s
+2022.11.17 09:50:49 INFO  time: indexed workspace in 9.98s
+2022.11.17 09:51:14 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 09:51:15 INFO  time: compiled cs210-forcomp in 1.14s
+2022.11.17 10:00:59 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:00:59 INFO  time: compiled cs210-forcomp in 0.3s
+2022.11.17 10:10:01 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:10:01 INFO  time: compiled cs210-forcomp in 0.58s
+2022.11.17 10:10:01 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:10:01 INFO  time: compiled cs210-forcomp in 0.3s
+2022.11.17 10:10:02 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:10:02 INFO  time: compiled cs210-forcomp in 90ms
+2022.11.17 10:10:05 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:10:05 INFO  time: compiled cs210-forcomp in 0.38s
+2022.11.17 10:10:05 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:10:05 INFO  time: compiled cs210-forcomp in 0.23s
+2022.11.17 10:10:06 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:10:06 INFO  time: compiled cs210-forcomp in 0.15s
+2022.11.17 10:10:06 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:10:06 INFO  time: compiled cs210-forcomp in 0.16s
+2022.11.17 10:10:07 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:10:07 INFO  time: compiled cs210-forcomp in 80ms
+2022.11.17 10:10:07 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:10:07 INFO  time: compiled cs210-forcomp in 0.19s
+2022.11.17 10:10:07 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:10:09 INFO  time: compiled cs210-forcomp in 0.23s
+2022.11.17 10:10:10 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:10:10 INFO  time: compiled cs210-forcomp in 0.19s
+2022.11.17 10:10:10 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:10:10 INFO  time: compiled cs210-forcomp in 62ms
+2022.11.17 10:10:11 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:10:11 INFO  time: compiled cs210-forcomp in 89ms
+2022.11.17 10:10:11 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:10:11 INFO  time: compiled cs210-forcomp in 62ms
+2022.11.17 10:10:11 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:10:12 INFO  time: compiled cs210-forcomp in 63ms
+2022.11.17 10:10:12 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:10:12 INFO  time: compiled cs210-forcomp in 37ms
+2022.11.17 10:10:13 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:10:13 INFO  time: compiled cs210-forcomp in 0.25s
+2022.11.17 10:10:13 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:10:13 INFO  time: compiled cs210-forcomp in 0.11s
+2022.11.17 10:10:18 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:10:18 INFO  time: compiled cs210-forcomp in 0.2s
+2022.11.17 10:10:33 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:10:33 INFO  time: compiled cs210-forcomp in 0.23s
+2022.11.17 10:31:33 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:31:33 INFO  time: compiled cs210-forcomp in 0.2s
+2022.11.17 10:31:33 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:31:33 INFO  time: compiled cs210-forcomp in 0.35s
+2022.11.17 10:31:35 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:31:35 INFO  time: compiled cs210-forcomp in 0.29s
+2022.11.17 10:31:35 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:31:35 INFO  time: compiled cs210-forcomp in 0.22s
+2022.11.17 10:37:00 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:00 INFO  time: compiled cs210-forcomp in 0.33s
+2022.11.17 10:37:03 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:03 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 10:37:06 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:06 INFO  time: compiled cs210-forcomp in 55ms
+2022.11.17 10:37:08 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:08 INFO  time: compiled cs210-forcomp in 0.18s
+2022.11.17 10:37:08 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:09 INFO  time: compiled cs210-forcomp in 0.25s
+2022.11.17 10:37:09 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:09 INFO  time: compiled cs210-forcomp in 41ms
+2022.11.17 10:37:09 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:10 INFO  time: compiled cs210-forcomp in 0.34s
+2022.11.17 10:37:10 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:10 INFO  time: compiled cs210-forcomp in 0.19s
+2022.11.17 10:37:10 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:11 INFO  time: compiled cs210-forcomp in 0.16s
+2022.11.17 10:37:11 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:11 INFO  time: compiled cs210-forcomp in 0.24s
+2022.11.17 10:37:13 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:13 INFO  time: compiled cs210-forcomp in 0.17s
+2022.11.17 10:37:14 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:14 INFO  time: compiled cs210-forcomp in 0.33s
+2022.11.17 10:37:14 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:14 INFO  time: compiled cs210-forcomp in 49ms
+2022.11.17 10:37:16 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:16 INFO  time: compiled cs210-forcomp in 0.2s
+2022.11.17 10:37:18 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:18 INFO  time: compiled cs210-forcomp in 0.21s
+2022.11.17 10:37:20 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:20 INFO  time: compiled cs210-forcomp in 0.18s
+2022.11.17 10:37:20 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:20 INFO  time: compiled cs210-forcomp in 0.19s
+2022.11.17 10:37:21 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:21 INFO  time: compiled cs210-forcomp in 0.21s
+2022.11.17 10:37:21 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:21 INFO  time: compiled cs210-forcomp in 0.28s
+2022.11.17 10:37:21 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:21 INFO  time: compiled cs210-forcomp in 78ms
+2022.11.17 10:37:33 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:33 INFO  time: compiled cs210-forcomp in 49ms
+2022.11.17 10:37:34 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:34 INFO  time: compiled cs210-forcomp in 32ms
+2022.11.17 10:37:34 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:34 INFO  time: compiled cs210-forcomp in 95ms
+2022.11.17 10:37:36 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:36 INFO  time: compiled cs210-forcomp in 44ms
+2022.11.17 10:37:36 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:36 INFO  time: compiled cs210-forcomp in 99ms
+2022.11.17 10:37:36 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:37 INFO  time: compiled cs210-forcomp in 0.22s
+2022.11.17 10:37:37 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:37 INFO  time: compiled cs210-forcomp in 74ms
+2022.11.17 10:37:37 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:37 INFO  time: compiled cs210-forcomp in 0.2s
+2022.11.17 10:37:37 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:37 INFO  time: compiled cs210-forcomp in 94ms
+2022.11.17 10:37:39 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:39 INFO  time: compiled cs210-forcomp in 0.16s
+2022.11.17 10:37:41 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:41 INFO  time: compiled cs210-forcomp in 45ms
+2022.11.17 10:37:43 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:43 INFO  time: compiled cs210-forcomp in 90ms
+2022.11.17 10:37:47 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:47 INFO  time: compiled cs210-forcomp in 0.18s
+2022.11.17 10:37:47 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:47 INFO  time: compiled cs210-forcomp in 68ms
+2022.11.17 10:37:52 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:52 INFO  time: compiled cs210-forcomp in 51ms
+2022.11.17 10:37:53 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:53 INFO  time: compiled cs210-forcomp in 0.2s
+2022.11.17 10:37:54 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:54 INFO  time: compiled cs210-forcomp in 48ms
+2022.11.17 10:37:58 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:37:58 INFO  time: compiled cs210-forcomp in 0.11s
+2022.11.17 10:38:00 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:00 INFO  time: compiled cs210-forcomp in 0.17s
+2022.11.17 10:38:20 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:20 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 10:38:21 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:21 INFO  time: compiled cs210-forcomp in 0.13s
+nov 17, 2022 10:38:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVVERTENZA: Unmatched cancel notification for request id 497
+2022.11.17 10:38:23 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:23 INFO  time: compiled cs210-forcomp in 77ms
+2022.11.17 10:38:23 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:24 INFO  time: compiled cs210-forcomp in 0.11s
+2022.11.17 10:38:26 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:26 INFO  time: compiled cs210-forcomp in 33ms
+2022.11.17 10:38:26 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:26 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 10:38:27 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:27 INFO  time: compiled cs210-forcomp in 0.1s
+2022.11.17 10:38:28 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:28 INFO  time: compiled cs210-forcomp in 0.13s
+2022.11.17 10:38:28 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:28 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 10:38:28 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:28 INFO  time: compiled cs210-forcomp in 11ms
+2022.11.17 10:38:29 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:29 INFO  time: compiled cs210-forcomp in 50ms
+2022.11.17 10:38:29 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:29 INFO  time: compiled cs210-forcomp in 54ms
+2022.11.17 10:38:30 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:30 INFO  time: compiled cs210-forcomp in 47ms
+2022.11.17 10:38:32 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:32 INFO  time: compiled cs210-forcomp in 91ms
+2022.11.17 10:38:32 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:32 INFO  time: compiled cs210-forcomp in 62ms
+2022.11.17 10:38:41 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:41 INFO  time: compiled cs210-forcomp in 56ms
+2022.11.17 10:38:42 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:42 INFO  time: compiled cs210-forcomp in 86ms
+2022.11.17 10:38:42 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:42 INFO  time: compiled cs210-forcomp in 57ms
+2022.11.17 10:38:43 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:43 INFO  time: compiled cs210-forcomp in 76ms
+2022.11.17 10:38:44 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:44 INFO  time: compiled cs210-forcomp in 72ms
+2022.11.17 10:38:48 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:48 INFO  time: compiled cs210-forcomp in 76ms
+2022.11.17 10:38:49 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:49 INFO  time: compiled cs210-forcomp in 39ms
+2022.11.17 10:38:51 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:51 INFO  time: compiled cs210-forcomp in 87ms
+2022.11.17 10:38:51 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:51 INFO  time: compiled cs210-forcomp in 55ms
+2022.11.17 10:38:54 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:54 INFO  time: compiled cs210-forcomp in 84ms
+2022.11.17 10:38:54 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:54 INFO  time: compiled cs210-forcomp in 57ms
+2022.11.17 10:38:56 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:56 INFO  time: compiled cs210-forcomp in 63ms
+2022.11.17 10:38:56 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:56 INFO  time: compiled cs210-forcomp in 0.11s
+2022.11.17 10:38:56 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:57 INFO  time: compiled cs210-forcomp in 82ms
+2022.11.17 10:38:59 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:38:59 INFO  time: compiled cs210-forcomp in 61ms
+2022.11.17 10:39:01 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:39:01 INFO  time: compiled cs210-forcomp in 47ms
+2022.11.17 10:39:05 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:39:05 INFO  time: compiled cs210-forcomp in 0.15s
+2022.11.17 10:39:05 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:39:05 INFO  time: compiled cs210-forcomp in 57ms
+2022.11.17 10:39:07 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:39:07 INFO  time: compiled cs210-forcomp in 49ms
+2022.11.17 10:39:18 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:39:18 INFO  time: compiled cs210-forcomp in 83ms
+2022.11.17 10:39:19 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:39:19 INFO  time: compiled cs210-forcomp in 0.54s
+2022.11.17 10:39:21 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:39:21 INFO  time: compiled cs210-forcomp in 0.38s
+2022.11.17 10:39:30 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:39:30 INFO  time: compiled cs210-forcomp in 0.13s
+2022.11.17 10:39:30 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:39:30 INFO  time: compiled cs210-forcomp in 24ms
+Exception in thread "pool-5-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.11.17 10:39:47 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:39:47 INFO  time: compiled cs210-forcomp in 55ms
+2022.11.17 10:40:25 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:40:25 INFO  time: compiled cs210-forcomp in 0.17s
+2022.11.17 10:47:27 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:47:27 INFO  time: compiled cs210-forcomp in 0.19s
+2022.11.17 10:47:30 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:47:30 INFO  time: compiled cs210-forcomp in 0.41s
+2022.11.17 10:47:30 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:47:31 INFO  time: compiled cs210-forcomp in 0.33s
+2022.11.17 10:47:32 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:47:32 INFO  time: compiled cs210-forcomp in 0.14s
+2022.11.17 10:47:32 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:47:33 INFO  time: compiled cs210-forcomp in 0.19s
+2022.11.17 10:47:33 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:47:33 INFO  time: compiled cs210-forcomp in 78ms
+2022.11.17 10:47:36 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:47:36 INFO  time: compiled cs210-forcomp in 0.18s
+2022.11.17 10:47:36 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:47:36 INFO  time: compiled cs210-forcomp in 57ms
+2022.11.17 10:47:37 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:47:37 INFO  time: compiled cs210-forcomp in 0.23s
+2022.11.17 10:47:37 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:47:37 INFO  time: compiled cs210-forcomp in 0.17s
+2022.11.17 10:47:56 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:47:56 INFO  time: compiled cs210-forcomp in 54ms
+2022.11.17 10:47:58 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:47:58 INFO  time: compiled cs210-forcomp in 52ms
+2022.11.17 10:47:58 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:47:58 INFO  time: compiled cs210-forcomp in 65ms
+2022.11.17 10:47:59 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:47:59 INFO  time: compiled cs210-forcomp in 37ms
+2022.11.17 10:48:01 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:48:01 INFO  time: compiled cs210-forcomp in 41ms
+2022.11.17 10:48:01 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:48:01 INFO  time: compiled cs210-forcomp in 75ms
+2022.11.17 10:48:03 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:48:03 INFO  time: compiled cs210-forcomp in 59ms
+2022.11.17 10:48:03 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:48:03 INFO  time: compiled cs210-forcomp in 46ms
+2022.11.17 10:48:06 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 10:48:06 INFO  time: compiled cs210-forcomp in 0.47s
+2022.11.17 10:51:30 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:51:30 INFO  time: compiled cs210-forcomp in 0.11s
+2022.11.17 10:52:02 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:52:02 INFO  time: compiled cs210-forcomp in 63ms
+2022.11.17 10:52:02 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:52:02 INFO  time: compiled cs210-forcomp in 83ms
+2022.11.17 10:52:04 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:52:04 INFO  time: compiled cs210-forcomp in 89ms
+2022.11.17 10:52:06 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:52:06 INFO  time: compiled cs210-forcomp in 0.22s
+2022.11.17 10:52:06 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:52:06 INFO  time: compiled cs210-forcomp in 67ms
+2022.11.17 10:52:07 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:52:07 INFO  time: compiled cs210-forcomp in 64ms
+2022.11.17 10:52:51 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:52:51 INFO  time: compiled cs210-forcomp in 68ms
+2022.11.17 10:54:05 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:54:05 INFO  time: compiled cs210-forcomp in 83ms
+2022.11.17 10:54:07 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:54:07 INFO  time: compiled cs210-forcomp in 56ms
+2022.11.17 10:54:09 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:54:09 INFO  time: compiled cs210-forcomp in 76ms
+2022.11.17 10:54:10 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:54:10 INFO  time: compiled cs210-forcomp in 78ms
+2022.11.17 10:54:10 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:54:10 INFO  time: compiled cs210-forcomp in 88ms
+2022.11.17 10:54:44 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:54:44 INFO  time: compiled cs210-forcomp in 55ms
+2022.11.17 10:54:45 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:54:45 INFO  time: compiled cs210-forcomp in 0.34s
+2022.11.17 10:54:46 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:54:46 INFO  time: compiled cs210-forcomp in 75ms
+2022.11.17 10:54:46 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:54:47 INFO  time: compiled cs210-forcomp in 0.18s
+2022.11.17 10:54:47 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:54:47 INFO  time: compiled cs210-forcomp in 0.32s
+2022.11.17 10:54:47 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:54:49 INFO  time: compiled cs210-forcomp in 0.27s
+2022.11.17 10:54:49 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:54:49 INFO  time: compiled cs210-forcomp in 60ms
+2022.11.17 10:55:23 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:55:23 INFO  time: compiled cs210-forcomp in 49ms
+2022.11.17 10:55:23 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:55:23 INFO  time: compiled cs210-forcomp in 51ms
+2022.11.17 10:55:26 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:55:26 INFO  time: compiled cs210-forcomp in 45ms
+2022.11.17 10:55:26 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:55:26 INFO  time: compiled cs210-forcomp in 96ms
+2022.11.17 10:55:37 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:55:37 INFO  time: compiled cs210-forcomp in 42ms
+2022.11.17 10:55:37 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:55:37 INFO  time: compiled cs210-forcomp in 80ms
+2022.11.17 10:55:39 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:55:39 INFO  time: compiled cs210-forcomp in 75ms
+2022.11.17 10:55:39 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:55:39 INFO  time: compiled cs210-forcomp in 99ms
+2022.11.17 10:55:41 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:55:41 INFO  time: compiled cs210-forcomp in 59ms
+2022.11.17 10:55:48 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:55:48 INFO  time: compiled cs210-forcomp in 67ms
+2022.11.17 10:55:49 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:55:49 INFO  time: compiled cs210-forcomp in 0.24s
+2022.11.17 10:56:10 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:56:10 INFO  time: compiled cs210-forcomp in 88ms
+2022.11.17 10:56:12 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:56:12 INFO  time: compiled cs210-forcomp in 63ms
+2022.11.17 10:56:13 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 10:56:13 INFO  time: compiled cs210-forcomp in 0.42s
+Exception in thread "pool-5-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-5-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.11.17 10:58:25 INFO  time: evaluated worksheet 'worksheet.worksheet.sc' in 10s
+2022.11.17 10:58:26 INFO  time: code lens generation in 1.51s
+[31merror[39m: src/main/scala/forcomp/worksheet.worksheet.sc:1:22: 
+Not found: type Word
+val dictionary: List[Word] = Dictionary.loadDictionary
+                     ^^^^
+[31merror[39m: src/main/scala/forcomp/worksheet.worksheet.sc:1:30: 
+Not found: Dictionary
+val dictionary: List[Word] = Dictionary.loadDictionary
+                             ^^^^^^^^^^
+[31merror[39m: 
+worksheet.worksheet.sc:8 (mdoc generated code) 
+ Found:    (MdocApp.this.dictionary : List[<error Not found: type Word>])
+Required: mdoc.internal.sourcecode.SourceStatement[Nothing]
+    $doc.binder(dictionary, 0, 4, 0, 14);
+
+
+2022.11.17 10:58:27 INFO  time: evaluated worksheet 'worksheet.worksheet.sc' in 2.28s
+[31merror[39m: src/main/scala/forcomp/worksheet.worksheet.sc:1:22: 
+Not found: type Word
+val dictionary: List[Word] = Dictionary.loadDictionary
+                     ^^^^
+[31merror[39m: src/main/scala/forcomp/worksheet.worksheet.sc:1:30: 
+Not found: Dictionary
+val dictionary: List[Word] = Dictionary.loadDictionary
+                             ^^^^^^^^^^
+[31merror[39m: 
+worksheet.worksheet.sc:8 (mdoc generated code) 
+ Found:    (MdocApp.this.dictionary : List[<error Not found: type Word>])
+Required: mdoc.internal.sourcecode.SourceStatement[Nothing]
+    $doc.binder(dictionary, 0, 4, 0, 14);
+
+
+2022.11.17 10:58:27 INFO  time: evaluated worksheet 'worksheet.worksheet.sc' in 0.5s
+[31merror[39m: src/main/scala/forcomp/worksheet.worksheet.sc:1:22: 
+Not found: type Word
+val dictionary: List[Word] = Dictionary.loadDictionary
+                     ^^^^
+[31merror[39m: src/main/scala/forcomp/worksheet.worksheet.sc:1:30: 
+Not found: Dictionary
+val dictionary: List[Word] = Dictionary.loadDictionary
+                             ^^^^^^^^^^
+[31merror[39m: 
+worksheet.worksheet.sc:8 (mdoc generated code) 
+ Found:    (MdocApp.this.dictionary : List[<error Not found: type Word>])
+Required: mdoc.internal.sourcecode.SourceStatement[Nothing]
+    $doc.binder(dictionary, 0, 4, 0, 14);
+
+
+2022.11.17 10:58:28 INFO  time: evaluated worksheet 'worksheet.worksheet.sc' in 0.57s
+[31merror[39m: src/main/scala/forcomp/worksheet.worksheet.sc:1:22: 
+Not found: type Word
+val dictionary: List[Word] = Dictionary.loadDictionary
+                     ^^^^
+[31merror[39m: src/main/scala/forcomp/worksheet.worksheet.sc:1:30: 
+Not found: Dictionary
+val dictionary: List[Word] = Dictionary.loadDictionary
+                             ^^^^^^^^^^
+[31merror[39m: 
+worksheet.worksheet.sc:8 (mdoc generated code) 
+ Found:    (MdocApp.this.dictionary : List[<error Not found: type Word>])
+Required: mdoc.internal.sourcecode.SourceStatement[Nothing]
+    $doc.binder(dictionary, 0, 4, 0, 14);
+
+
+2022.11.17 10:58:28 INFO  time: evaluated worksheet 'worksheet.worksheet.sc' in 0.4s
+[31merror[39m: src/main/scala/forcomp/worksheet.worksheet.sc:1:22: 
+Not found: type Word
+val dictionary: List[Word] = Dictionary.loadDictionary
+                     ^^^^
+[31merror[39m: src/main/scala/forcomp/worksheet.worksheet.sc:1:30: 
+Not found: Dictionary
+val dictionary: List[Word] = Dictionary.loadDictionary
+                             ^^^^^^^^^^
+[31merror[39m: 
+worksheet.worksheet.sc:8 (mdoc generated code) 
+ Found:    (MdocApp.this.dictionary : List[<error Not found: type Word>])
+Required: mdoc.internal.sourcecode.SourceStatement[Nothing]
+    $doc.binder(dictionary, 0, 4, 0, 14);
+
+
+2022.11.17 10:58:40 INFO  time: evaluated worksheet 'worksheet.worksheet.sc' in 0.72s
+[31merror[39m: src/main/scala/forcomp/worksheet.worksheet.sc:4:22: 
+Not found: type Word
+val dictionary: List[Word] = Dictionary.loadDictionary
+                     ^^^^
+[31merror[39m: src/main/scala/forcomp/worksheet.worksheet.sc:4:30: 
+Not found: Dictionary
+val dictionary: List[Word] = Dictionary.loadDictionary
+                             ^^^^^^^^^^
+[31merror[39m: 
+worksheet.worksheet.sc:8 (mdoc generated code) 
+ Found:    (MdocApp.this.dictionary : List[<error Not found: type Word>])
+Required: mdoc.internal.sourcecode.SourceStatement[Nothing]
+    $doc.binder(dictionary, 3, 4, 3, 14);
+
+
+2022.11.17 10:58:43 INFO  time: evaluated worksheet 'worksheet.worksheet.sc' in 0.54s
+[31merror[39m: 
+worksheet.worksheet.sc:8 (mdoc generated code) 
+ this kind of statement is not allowed here
+      package forcomp
+
+
+[31merror[39m: 
+worksheet.worksheet.sc:14 (mdoc generated code) 
+ '}' expected, but unindent found
+    $doc.binder(res0, 0, 0, 5, 54);
+
+
+[31merror[39m: src/main/scala/forcomp/worksheet.worksheet.sc:6:22: 
+Not found: type Word
+val dictionary: List[Word] = Dictionary.loadDictionary
+                     ^^^^
+[31merror[39m: src/main/scala/forcomp/worksheet.worksheet.sc:6:30: 
+Not found: Dictionary
+val dictionary: List[Word] = Dictionary.loadDictionary
+                             ^^^^^^^^^^
+2022.11.17 10:58:45 INFO  time: evaluated worksheet 'worksheet.worksheet.sc' in 0.59s
+[31merror[39m: 
+worksheet.worksheet.sc:8 (mdoc generated code) 
+ this kind of statement is not allowed here
+      package forcomp
+
+
+[31merror[39m: 
+worksheet.worksheet.sc:14 (mdoc generated code) 
+ '}' expected, but unindent found
+    $doc.binder(res0, 0, 0, 5, 54);
+
+
+[31merror[39m: src/main/scala/forcomp/worksheet.worksheet.sc:6:22: 
+Not found: type Word
+val dictionary: List[Word] = Dictionary.loadDictionary
+                     ^^^^
+[31merror[39m: src/main/scala/forcomp/worksheet.worksheet.sc:6:30: 
+Not found: Dictionary
+val dictionary: List[Word] = Dictionary.loadDictionary
+                             ^^^^^^^^^^
+2022.11.17 10:58:58 INFO  time: evaluated worksheet 'worksheet.worksheet.sc' in 0.55s
+[31merror[39m: 
+worksheet.worksheet.sc:8 (mdoc generated code) 
+ this kind of statement is not allowed here
+      package forcomp
+
+
+[31merror[39m: 
+worksheet.worksheet.sc:31 (mdoc generated code) 
+ '}' expected, but unindent found
+    $doc.binder(res0, 0, 0, 22, 24);
+
+
+[31merror[39m: src/main/scala/forcomp/worksheet.worksheet.sc:6:22: 
+Not found: type Word
+val dictionary: List[Word] = Dictionary.loadDictionary
+                     ^^^^
+2022.11.17 10:59:00 INFO  time: evaluated worksheet 'worksheet.worksheet.sc' in 0.86s
+2022.11.17 11:00:33 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:00:33 INFO  time: compiled cs210-forcomp in 0.16s
+2022.11.17 11:02:01 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:02:01 INFO  time: compiled cs210-forcomp in 0.25s
+2022.11.17 11:02:03 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:02:03 INFO  time: compiled cs210-forcomp in 71ms
+2022.11.17 11:02:03 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:02:03 INFO  time: compiled cs210-forcomp in 69ms
+2022.11.17 11:02:05 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:02:05 INFO  time: compiled cs210-forcomp in 0.21s
+2022.11.17 11:02:05 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:02:05 INFO  time: compiled cs210-forcomp in 39ms
+2022.11.17 11:02:16 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:02:16 INFO  time: compiled cs210-forcomp in 0.16s
+nov 17, 2022 11:02:19 AM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2499)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.isForComprehensionOwner$1(PcDocumentHighlightProvider.scala:163)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.collectNames$1(PcDocumentHighlightProvider.scala:178)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.$anonfun$4(PcDocumentHighlightProvider.scala:275)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1554)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1623)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1630)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1627)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1636)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1541)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.highlights(PcDocumentHighlightProvider.scala:276)
+
+2022.11.17 11:02:25 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:02:25 INFO  time: compiled cs210-forcomp in 0.17s
+2022.11.17 11:02:44 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:02:44 INFO  time: compiled cs210-forcomp in 47ms
+2022.11.17 11:02:59 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:02:59 INFO  time: compiled cs210-forcomp in 48ms
+2022.11.17 11:02:59 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:02:59 INFO  time: compiled cs210-forcomp in 56ms
+2022.11.17 11:03:03 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:03:03 INFO  time: compiled cs210-forcomp in 0.28s
+2022.11.17 11:03:30 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:03:30 INFO  time: compiled cs210-forcomp in 0.29s
+2022.11.17 11:03:34 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:03:34 INFO  time: compiled cs210-forcomp in 0.22s
+2022.11.17 11:03:39 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:03:39 INFO  time: compiled cs210-forcomp in 88ms
+2022.11.17 11:03:42 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:03:42 INFO  time: compiled cs210-forcomp in 19ms
+2022.11.17 11:03:45 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:03:45 INFO  time: compiled cs210-forcomp in 0.21s
+2022.11.17 11:10:17 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:10:17 INFO  time: compiled cs210-forcomp in 71ms
+2022.11.17 11:10:47 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:10:47 INFO  time: compiled cs210-forcomp in 88ms
+2022.11.17 11:10:52 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:10:52 INFO  time: compiled cs210-forcomp in 0.19s
+2022.11.17 11:10:53 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:10:53 INFO  time: compiled cs210-forcomp in 90ms
+2022.11.17 11:10:53 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:10:53 INFO  time: compiled cs210-forcomp in 89ms
+2022.11.17 11:10:55 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:10:55 INFO  time: compiled cs210-forcomp in 90ms
+2022.11.17 11:10:55 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:10:55 INFO  time: compiled cs210-forcomp in 69ms
+2022.11.17 11:10:56 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:10:56 INFO  time: compiled cs210-forcomp in 66ms
+2022.11.17 11:10:58 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:10:58 INFO  time: compiled cs210-forcomp in 92ms
+2022.11.17 11:11:00 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:11:00 INFO  time: compiled cs210-forcomp in 88ms
+nov 17, 2022 11:11:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVVERTENZA: Unmatched cancel notification for request id 1564
+2022.11.17 11:11:24 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:11:24 INFO  time: compiled cs210-forcomp in 93ms
+2022.11.17 11:11:24 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:11:24 INFO  time: compiled cs210-forcomp in 83ms
+2022.11.17 11:11:52 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:11:52 INFO  time: compiled cs210-forcomp in 67ms
+2022.11.17 11:11:52 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:11:52 INFO  time: compiled cs210-forcomp in 73ms
+2022.11.17 11:11:57 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:11:57 INFO  time: compiled cs210-forcomp in 0.28s
+2022.11.17 11:11:57 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:11:57 INFO  time: compiled cs210-forcomp in 0.24s
+2022.11.17 11:12:18 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:12:18 INFO  time: compiled cs210-forcomp in 0.2s
+2022.11.17 11:12:18 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:12:18 INFO  time: compiled cs210-forcomp in 0.18s
+2022.11.17 11:12:25 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:12:25 INFO  time: compiled cs210-forcomp in 55ms
+2022.11.17 11:12:26 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:12:26 INFO  time: compiled cs210-forcomp in 0.36s
+2022.11.17 11:12:32 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:12:32 INFO  time: compiled cs210-forcomp in 0.16s
+2022.11.17 11:12:49 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:12:49 INFO  time: compiled cs210-forcomp in 0.13s
+2022.11.17 11:14:55 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:14:55 INFO  time: compiled cs210-forcomp in 0.21s
+2022.11.17 11:14:55 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:14:55 INFO  time: compiled cs210-forcomp in 81ms
+2022.11.17 11:14:56 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:14:56 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 11:14:56 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:14:57 INFO  time: compiled cs210-forcomp in 93ms
+2022.11.17 11:15:12 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:15:12 INFO  time: compiled cs210-forcomp in 72ms
+2022.11.17 11:15:14 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:15:14 INFO  time: compiled cs210-forcomp in 0.11s
+2022.11.17 11:15:15 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:15:15 INFO  time: compiled cs210-forcomp in 58ms
+2022.11.17 11:15:19 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:15:19 INFO  time: compiled cs210-forcomp in 0.42s
+2022.11.17 11:15:21 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:15:21 INFO  time: compiled cs210-forcomp in 0.37s
+2022.11.17 11:15:48 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:15:48 INFO  time: compiled cs210-forcomp in 0.34s
+2022.11.17 11:15:50 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:15:50 INFO  time: compiled cs210-forcomp in 0.28s
+2022.11.17 11:16:09 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:16:09 INFO  time: compiled cs210-forcomp in 73ms
+2022.11.17 11:16:10 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:16:10 INFO  time: compiled cs210-forcomp in 0.11s
+2022.11.17 11:16:10 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:16:10 INFO  time: compiled cs210-forcomp in 73ms
+2022.11.17 11:16:11 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:16:11 INFO  time: compiled cs210-forcomp in 0.19s
+2022.11.17 11:16:19 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:16:19 INFO  time: compiled cs210-forcomp in 0.22s
+2022.11.17 11:16:21 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:16:21 INFO  time: compiled cs210-forcomp in 0.19s
+2022.11.17 11:16:23 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:16:23 INFO  time: compiled cs210-forcomp in 0.14s
+2022.11.17 11:16:23 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:16:24 INFO  time: compiled cs210-forcomp in 0.26s
+2022.11.17 11:16:39 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:16:39 INFO  time: compiled cs210-forcomp in 77ms
+2022.11.17 11:16:39 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:16:40 INFO  time: compiled cs210-forcomp in 0.37s
+2022.11.17 11:16:40 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:16:41 INFO  time: compiled cs210-forcomp in 0.54s
+2022.11.17 11:16:54 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:16:54 INFO  time: compiled cs210-forcomp in 0.17s
+2022.11.17 11:16:54 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:16:54 INFO  time: compiled cs210-forcomp in 0.28s
+2022.11.17 11:21:17 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:21:17 INFO  time: compiled cs210-forcomp in 65ms
+2022.11.17 11:21:18 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:21:18 INFO  time: compiled cs210-forcomp in 0.13s
+2022.11.17 11:21:20 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:21:20 INFO  time: compiled cs210-forcomp in 0.11s
+2022.11.17 11:21:33 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:21:33 INFO  time: compiled cs210-forcomp in 0.22s
+2022.11.17 11:23:30 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:23:30 INFO  time: compiled cs210-forcomp in 0.2s
+2022.11.17 11:27:42 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:27:42 INFO  time: compiled cs210-forcomp in 0.27s
+2022.11.17 11:27:43 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:27:43 INFO  time: compiled cs210-forcomp in 0.21s
+2022.11.17 11:27:43 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:27:43 INFO  time: compiled cs210-forcomp in 0.2s
+2022.11.17 11:29:03 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:29:03 INFO  time: compiled cs210-forcomp in 0.24s
+2022.11.17 11:29:04 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:29:04 INFO  time: compiled cs210-forcomp in 0.22s
+2022.11.17 11:29:04 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:29:04 INFO  time: compiled cs210-forcomp in 0.33s
+nov 17, 2022 11:29:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVVERTENZA: Unmatched cancel notification for request id 1997
+2022.11.17 11:29:13 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:29:13 INFO  time: compiled cs210-forcomp in 0.21s
+2022.11.17 11:29:13 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:29:14 INFO  time: compiled cs210-forcomp in 0.21s
+2022.11.17 11:29:21 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:29:21 INFO  time: compiled cs210-forcomp in 0.36s
+2022.11.17 11:29:21 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:29:21 INFO  time: compiled cs210-forcomp in 0.18s
+2022.11.17 11:29:25 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:29:25 INFO  time: compiled cs210-forcomp in 0.17s
+2022.11.17 11:30:05 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:30:05 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 11:30:05 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:30:05 INFO  time: compiled cs210-forcomp in 63ms
+2022.11.17 11:30:09 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:30:09 INFO  time: compiled cs210-forcomp in 0.27s
+2022.11.17 11:30:14 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:30:14 INFO  time: compiled cs210-forcomp in 0.13s
+2022.11.17 11:30:16 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:30:16 INFO  time: compiled cs210-forcomp in 0.17s
+2022.11.17 11:30:19 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:30:19 INFO  time: compiled cs210-forcomp in 0.24s
+2022.11.17 11:30:19 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:30:19 INFO  time: compiled cs210-forcomp in 0.19s
+nov 17, 2022 11:36:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVVERTENZA: Unmatched cancel notification for request id 2088
+2022.11.17 11:36:10 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:36:10 INFO  time: compiled cs210-forcomp in 0.26s
+2022.11.17 11:36:18 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:36:18 INFO  time: compiled cs210-forcomp in 0.22s
+2022.11.17 11:36:21 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:36:21 INFO  time: compiled cs210-forcomp in 0.19s
+2022.11.17 11:36:42 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:36:42 INFO  time: compiled cs210-forcomp in 0.26s
+2022.11.17 11:36:44 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:36:44 INFO  time: compiled cs210-forcomp in 0.21s
+2022.11.17 11:37:01 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:37:01 INFO  time: compiled cs210-forcomp in 0.17s
+2022.11.17 11:37:09 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:104: stale bloop error: Found:    Unit
+Required: List[forcomp.Anagrams.Occurrences]
+    val ocs: List[Occurrences] = occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+                                                                                                       ^
+2022.11.17 11:37:09 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:104: stale bloop error: Found:    Unit
+Required: List[forcomp.Anagrams.Occurrences]
+    val ocs: List[Occurrences] = occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+                                                                                                       ^
+2022.11.17 11:37:09 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:104: stale bloop error: Found:    Unit
+Required: List[forcomp.Anagrams.Occurrences]
+    val ocs: List[Occurrences] = occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+                                                                                                       ^
+2022.11.17 11:37:09 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:104: stale bloop error: Found:    Unit
+Required: List[forcomp.Anagrams.Occurrences]
+    val ocs: List[Occurrences] = occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+                                                                                                       ^
+2022.11.17 11:37:09 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:104: stale bloop error: Found:    Unit
+Required: List[forcomp.Anagrams.Occurrences]
+    val ocs: List[Occurrences] = occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+                                                                                                       ^
+2022.11.17 11:37:09 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:37:09 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:14: stale bloop error: an identifier expected, but $XMLSTART$< found
+    val ocs: <unit= occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+             ^
+2022.11.17 11:37:09 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:14: stale bloop error: an identifier expected, but $XMLSTART$< found
+    val ocs: <unit= occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+             ^
+2022.11.17 11:37:09 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:91: stale bloop error: Found:    Unit
+Required: List[forcomp.Anagrams.Occurrences]
+    val ocs: <unit= occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+                                                                                          ^
+2022.11.17 11:37:09 INFO  time: compiled cs210-forcomp in 0.24s
+2022.11.17 11:37:11 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:14: stale bloop error: an identifier expected, but $XMLSTART$< found
+    val ocs: <unit= occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+             ^
+2022.11.17 11:37:11 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:91: stale bloop error: Found:    Unit
+Required: List[forcomp.Anagrams.Occurrences]
+    val ocs: <unit= occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+                                                                                          ^
+2022.11.17 11:37:11 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:14: stale bloop error: an identifier expected, but $XMLSTART$< found
+    val ocs: <unit= occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+             ^
+2022.11.17 11:37:11 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:91: stale bloop error: Found:    Unit
+Required: List[forcomp.Anagrams.Occurrences]
+    val ocs: <unit= occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+                                                                                          ^
+2022.11.17 11:37:11 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:14: stale bloop error: an identifier expected, but $XMLSTART$< found
+    val ocs: <unit= occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+             ^
+2022.11.17 11:37:11 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:91: stale bloop error: Found:    Unit
+Required: List[forcomp.Anagrams.Occurrences]
+    val ocs: <unit= occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+                                                                                          ^
+2022.11.17 11:37:12 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:37:12 INFO  time: compiled cs210-forcomp in 0.24s
+2022.11.17 11:37:13 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:37:13 INFO  time: compiled cs210-forcomp in 0.18s
+2022.11.17 11:37:27 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:37:27 INFO  time: compiled cs210-forcomp in 0.2s
+2022.11.17 11:37:27 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:37:27 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:14: stale bloop error: an identifier expected, but '=' found
+    val ocs: = occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+             ^
+2022.11.17 11:37:27 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:86: stale bloop error: Found:    Unit
+Required: List[forcomp.Anagrams.Occurrences]
+    val ocs: = occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+                                                                                     ^
+2022.11.17 11:37:28 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:14: stale bloop error: an identifier expected, but '=' found
+    val ocs: = occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+             ^
+2022.11.17 11:37:28 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:86: stale bloop error: Found:    Unit
+Required: List[forcomp.Anagrams.Occurrences]
+    val ocs: = occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+                                                                                     ^
+2022.11.17 11:37:27 INFO  time: compiled cs210-forcomp in 0.21s
+2022.11.17 11:37:28 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:14: stale bloop error: an identifier expected, but '=' found
+    val ocs: = occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+             ^
+2022.11.17 11:37:28 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:86: stale bloop error: Found:    Unit
+Required: List[forcomp.Anagrams.Occurrences]
+    val ocs: = occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+                                                                                     ^
+nov 17, 2022 11:37:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVVERTENZA: Unmatched cancel notification for request id 2215
+2022.11.17 11:37:28 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:14: stale bloop error: an identifier expected, but '=' found
+    val ocs: = occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+             ^
+2022.11.17 11:37:28 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:37:28 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:86: stale bloop error: Found:    Unit
+Required: List[forcomp.Anagrams.Occurrences]
+    val ocs: = occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+                                                                                     ^
+2022.11.17 11:37:28 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:14: stale bloop error: an identifier expected, but $XMLSTART$< found
+    val ocs: <unit= occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+             ^
+2022.11.17 11:37:28 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:14: stale bloop error: an identifier expected, but $XMLSTART$< found
+    val ocs: <unit= occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+             ^
+2022.11.17 11:37:28 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:14: stale bloop error: an identifier expected, but $XMLSTART$< found
+    val ocs: <unit= occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+             ^
+2022.11.17 11:37:28 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:91: stale bloop error: Found:    Unit
+Required: List[forcomp.Anagrams.Occurrences]
+    val ocs: <unit= occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+                                                                                          ^
+2022.11.17 11:37:28 INFO  time: compiled cs210-forcomp in 0.19s
+2022.11.17 11:37:29 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:14: stale bloop error: an identifier expected, but $XMLSTART$< found
+    val ocs: <unit= occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+             ^
+2022.11.17 11:37:29 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:91: stale bloop error: Found:    Unit
+Required: List[forcomp.Anagrams.Occurrences]
+    val ocs: <unit= occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+                                                                                          ^
+2022.11.17 11:37:28 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:37:28 INFO  time: compiled cs210-forcomp in 0.19s
+2022.11.17 11:37:36 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:37:36 INFO  time: compiled cs210-forcomp in 0.18s
+2022.11.17 11:46:23 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 11:46:23 INFO  time: compiled cs210-forcomp in 0.69s
+2022.11.17 11:47:07 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:47:07 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 11:47:07 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:47:07 INFO  time: compiled cs210-forcomp in 63ms
+2022.11.17 11:47:07 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:47:08 INFO  time: compiled cs210-forcomp in 0.28s
+2022.11.17 11:47:25 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:47:25 INFO  time: compiled cs210-forcomp in 96ms
+2022.11.17 11:47:25 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:47:25 INFO  time: compiled cs210-forcomp in 0.15s
+2022.11.17 11:47:28 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:47:28 INFO  time: compiled cs210-forcomp in 61ms
+2022.11.17 11:47:29 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:47:29 INFO  time: compiled cs210-forcomp in 78ms
+2022.11.17 11:47:31 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:47:31 INFO  time: compiled cs210-forcomp in 0.39s
+2022.11.17 11:47:33 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:47:33 INFO  time: compiled cs210-forcomp in 0.2s
+2022.11.17 11:47:33 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:47:34 INFO  time: compiled cs210-forcomp in 0.38s
+2022.11.17 11:47:34 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:47:34 INFO  time: compiled cs210-forcomp in 0.3s
+2022.11.17 11:47:35 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:47:35 INFO  time: compiled cs210-forcomp in 0.33s
+nov 17, 2022 11:47:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVVERTENZA: Unmatched cancel notification for request id 2311
+2022.11.17 11:47:36 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:47:36 INFO  time: compiled cs210-forcomp in 0.28s
+2022.11.17 11:47:36 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:47:36 INFO  time: compiled cs210-forcomp in 0.26s
+2022.11.17 11:47:38 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:47:38 INFO  time: compiled cs210-forcomp in 0.23s
+2022.11.17 11:47:40 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:47:40 INFO  time: compiled cs210-forcomp in 0.33s
+2022.11.17 11:47:41 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:47:41 INFO  time: compiled cs210-forcomp in 0.25s
+2022.11.17 11:47:41 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:47:42 INFO  time: compiled cs210-forcomp in 0.26s
+2022.11.17 11:49:52 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:49:52 INFO  time: compiled cs210-forcomp in 0.15s
+2022.11.17 11:49:52 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:49:52 INFO  time: compiled cs210-forcomp in 80ms
+2022.11.17 11:49:53 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:49:53 INFO  time: compiled cs210-forcomp in 0.27s
+2022.11.17 11:51:21 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:51:21 INFO  time: compiled cs210-forcomp in 0.21s
+2022.11.17 11:51:50 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:51:50 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 11:51:50 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:51:52 INFO  time: compiled cs210-forcomp in 0.17s
+2022.11.17 11:51:52 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:51:52 INFO  time: compiled cs210-forcomp in 0.1s
+2022.11.17 11:51:53 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:51:53 INFO  time: compiled cs210-forcomp in 0.13s
+2022.11.17 11:53:01 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:53:01 INFO  time: compiled cs210-forcomp in 0.2s
+2022.11.17 11:53:04 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:53:04 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 11:53:04 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:53:05 INFO  time: compiled cs210-forcomp in 0.16s
+2022.11.17 11:53:05 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:53:06 INFO  time: compiled cs210-forcomp in 0.23s
+2022.11.17 11:53:07 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:53:07 INFO  time: compiled cs210-forcomp in 49ms
+2022.11.17 11:53:07 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:53:08 INFO  time: compiled cs210-forcomp in 0.22s
+2022.11.17 11:53:08 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:53:08 INFO  time: compiled cs210-forcomp in 0.16s
+2022.11.17 11:53:08 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:53:09 INFO  time: compiled cs210-forcomp in 0.17s
+2022.11.17 11:53:10 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:53:10 INFO  time: compiled cs210-forcomp in 0.19s
+2022.11.17 11:53:24 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:53:24 INFO  time: compiled cs210-forcomp in 57ms
+2022.11.17 11:53:24 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:53:24 INFO  time: compiled cs210-forcomp in 0.17s
+2022.11.17 11:53:28 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:53:28 INFO  time: compiled cs210-forcomp in 0.17s
+2022.11.17 11:53:30 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:53:30 INFO  time: compiled cs210-forcomp in 25ms
+2022.11.17 11:53:30 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:53:31 INFO  time: compiled cs210-forcomp in 0.3s
+2022.11.17 11:53:31 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:53:32 INFO  time: compiled cs210-forcomp in 0.21s
+2022.11.17 11:53:34 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:53:34 INFO  time: compiled cs210-forcomp in 78ms
+2022.11.17 11:53:35 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:53:35 INFO  time: compiled cs210-forcomp in 54ms
+2022.11.17 11:53:43 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:53:43 INFO  time: compiled cs210-forcomp in 0.24s
+2022.11.17 11:53:43 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:53:43 INFO  time: compiled cs210-forcomp in 0.25s
+2022.11.17 11:55:04 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:55:04 INFO  time: compiled cs210-forcomp in 62ms
+2022.11.17 11:55:05 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:55:05 INFO  time: compiled cs210-forcomp in 73ms
+2022.11.17 11:55:31 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:55:31 INFO  time: compiled cs210-forcomp in 0.1s
+2022.11.17 11:55:38 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:55:38 INFO  time: compiled cs210-forcomp in 68ms
+2022.11.17 11:55:42 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:55:42 INFO  time: compiled cs210-forcomp in 88ms
+2022.11.17 11:55:53 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:55:53 INFO  time: compiled cs210-forcomp in 0.19s
+2022.11.17 11:55:54 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:55:54 INFO  time: compiled cs210-forcomp in 55ms
+2022.11.17 11:55:56 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:55:56 INFO  time: compiled cs210-forcomp in 0.18s
+2022.11.17 11:57:15 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:57:15 INFO  time: compiled cs210-forcomp in 0.15s
+2022.11.17 11:57:18 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:57:18 INFO  time: compiled cs210-forcomp in 45ms
+2022.11.17 11:57:25 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:57:25 INFO  time: compiled cs210-forcomp in 0.19s
+2022.11.17 11:57:29 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:57:29 INFO  time: compiled cs210-forcomp in 49ms
+2022.11.17 11:57:32 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:57:32 INFO  time: compiled cs210-forcomp in 33ms
+2022.11.17 11:57:36 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:57:36 INFO  time: compiled cs210-forcomp in 67ms
+2022.11.17 11:57:38 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:57:38 INFO  time: compiled cs210-forcomp in 0.18s
+2022.11.17 11:57:38 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:57:38 INFO  time: compiled cs210-forcomp in 67ms
+2022.11.17 11:58:39 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:58:39 INFO  time: compiled cs210-forcomp in 0.2s
+2022.11.17 11:58:39 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:58:40 INFO  time: compiled cs210-forcomp in 0.17s
+2022.11.17 11:58:40 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:58:40 INFO  time: compiled cs210-forcomp in 0.16s
+2022.11.17 11:59:08 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:59:08 INFO  time: compiled cs210-forcomp in 98ms
+2022.11.17 11:59:10 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:59:10 INFO  time: compiled cs210-forcomp in 0.19s
+2022.11.17 11:59:28 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:59:28 INFO  time: compiled cs210-forcomp in 86ms
+2022.11.17 11:59:28 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:59:28 INFO  time: compiled cs210-forcomp in 0.29s
+2022.11.17 11:59:39 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:59:39 INFO  time: compiled cs210-forcomp in 0.29s
+2022.11.17 11:59:39 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:59:40 INFO  time: compiled cs210-forcomp in 0.19s
+2022.11.17 11:59:42 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 11:59:42 INFO  time: compiled cs210-forcomp in 0.43s
+nov 17, 2022 12:00:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVVERTENZA: Unmatched cancel notification for request id 2863
+2022.11.17 12:00:32 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:00:32 INFO  time: compiled cs210-forcomp in 94ms
+2022.11.17 12:00:32 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:00:33 INFO  time: compiled cs210-forcomp in 0.26s
+2022.11.17 12:00:33 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:00:33 INFO  time: compiled cs210-forcomp in 0.23s
+2022.11.17 12:00:36 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:00:36 INFO  time: compiled cs210-forcomp in 0.39s
+2022.11.17 12:00:40 INFO  compiling cs210-forcomp (2 scala sources)
+2022.11.17 12:00:40 INFO  time: compiled cs210-forcomp in 0.33s
+2022.11.17 12:03:37 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:03:37 INFO  time: compiled cs210-forcomp in 0.24s
+2022.11.17 12:03:37 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:03:37 INFO  time: compiled cs210-forcomp in 0.28s
+2022.11.17 12:03:38 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:03:38 INFO  time: compiled cs210-forcomp in 0.41s
+2022.11.17 12:03:38 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:03:39 INFO  time: compiled cs210-forcomp in 0.8s
+2022.11.17 12:11:18 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:11:18 INFO  time: compiled cs210-forcomp in 0.47s
+2022.11.17 12:11:20 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:11:20 INFO  time: compiled cs210-forcomp in 0.2s
+2022.11.17 12:11:20 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:11:20 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 12:11:22 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:11:22 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 12:11:24 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:11:24 INFO  time: compiled cs210-forcomp in 78ms
+2022.11.17 12:11:24 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:11:24 INFO  time: compiled cs210-forcomp in 0.23s
+2022.11.17 12:11:25 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:11:25 INFO  time: compiled cs210-forcomp in 0.1s
+2022.11.17 12:11:27 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:11:27 INFO  time: compiled cs210-forcomp in 86ms
+2022.11.17 12:11:27 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:11:27 INFO  time: compiled cs210-forcomp in 0.23s
+2022.11.17 12:11:27 INFO  compiling cs210-forcomp (1 scala source)
+nov 17, 2022 12:11:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVVERTENZA: Unmatched cancel notification for request id 2982
+2022.11.17 12:11:27 INFO  time: compiled cs210-forcomp in 79ms
+2022.11.17 12:11:29 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:11:29 INFO  time: compiled cs210-forcomp in 47ms
+2022.11.17 12:11:29 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:11:29 INFO  time: compiled cs210-forcomp in 75ms
+2022.11.17 12:11:30 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:11:30 INFO  time: compiled cs210-forcomp in 65ms
+2022.11.17 12:11:30 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:11:30 INFO  time: compiled cs210-forcomp in 59ms
+2022.11.17 12:11:33 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:11:33 INFO  time: compiled cs210-forcomp in 95ms
+2022.11.17 12:14:57 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:14:57 INFO  time: compiled cs210-forcomp in 86ms
+2022.11.17 12:14:57 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:14:57 INFO  time: compiled cs210-forcomp in 0.1s
+2022.11.17 12:14:58 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:14:58 INFO  time: compiled cs210-forcomp in 0.1s
+2022.11.17 12:14:58 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:14:58 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 12:14:59 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:14:59 INFO  time: compiled cs210-forcomp in 0.3s
+2022.11.17 12:14:59 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:14:59 INFO  time: compiled cs210-forcomp in 0.18s
+2022.11.17 12:15:01 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:15:01 INFO  time: compiled cs210-forcomp in 0.14s
+2022.11.17 12:15:02 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:15:02 INFO  time: compiled cs210-forcomp in 0.3s
+2022.11.17 12:15:02 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:15:02 INFO  time: compiled cs210-forcomp in 0.11s
+2022.11.17 12:15:02 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:15:03 INFO  time: compiled cs210-forcomp in 68ms
+2022.11.17 12:15:03 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:15:03 INFO  time: compiled cs210-forcomp in 73ms
+2022.11.17 12:15:04 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:15:04 INFO  time: compiled cs210-forcomp in 40ms
+2022.11.17 12:15:04 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:15:04 INFO  time: compiled cs210-forcomp in 85ms
+2022.11.17 12:15:06 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:15:06 INFO  time: compiled cs210-forcomp in 0.11s
+2022.11.17 12:15:06 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:15:06 INFO  time: compiled cs210-forcomp in 74ms
+2022.11.17 12:15:10 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:15:10 INFO  time: compiled cs210-forcomp in 90ms
+2022.11.17 12:15:13 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:15:13 INFO  time: compiled cs210-forcomp in 95ms
+2022.11.17 12:15:13 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:15:13 INFO  time: compiled cs210-forcomp in 94ms
+2022.11.17 12:15:14 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:29: stale bloop error: expression expected but ')' found
+    */l1 ::: (for (elem1 <- ))
+                            ^
+2022.11.17 12:15:14 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:30: stale bloop error: expression expected but ')' found
+    */l1 ::: (for (elem1 <- ))
+                             ^
+2022.11.17 12:15:14 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:5: stale bloop error: Not found: */
+    */l1 ::: (for (elem1 <- ))
+    ^^
+2022.11.17 12:15:14 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:29: stale bloop error: expression expected but ')' found
+    */l1 ::: (for (elem1 <- ))
+                            ^
+2022.11.17 12:15:14 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:30: stale bloop error: expression expected but ')' found
+    */l1 ::: (for (elem1 <- ))
+                             ^
+2022.11.17 12:15:14 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:5: stale bloop error: Not found: */
+    */l1 ::: (for (elem1 <- ))
+    ^^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:29: stale bloop error: expression expected but ')' found
+    */l1 ::: (for (elem1 <- ))
+                            ^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:30: stale bloop error: expression expected but ')' found
+    */l1 ::: (for (elem1 <- ))
+                             ^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:5: stale bloop error: Not found: */
+    */l1 ::: (for (elem1 <- ))
+    ^^
+2022.11.17 12:15:15 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:29: stale bloop error: expression expected but ')' found
+    */l1 ::: (for (elem1 <- ))
+                            ^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:29: stale bloop error: expression expected but ')' found
+    */l1 ::: (for (elem1 <- ))
+                            ^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:30: stale bloop error: expression expected but ')' found
+    */l1 ::: (for (elem1 <- ))
+                             ^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:75: stale bloop error: illegal character '\u00a7'
+    List() :: (for i <- 1 to ocs.length yield(ocs.take(i))).toList.flatten§
+                                                                          ^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:5: stale bloop error: Not found: */
+    */l1 ::: (for (elem1 <- ))
+    ^^
+2022.11.17 12:15:15 INFO  time: compiled cs210-forcomp in 90ms
+2022.11.17 12:15:14 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:29: stale bloop error: expression expected but ')' found
+    */l1 ::: (for (elem1 <- ))
+                            ^
+2022.11.17 12:15:14 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:30: stale bloop error: expression expected but ')' found
+    */l1 ::: (for (elem1 <- ))
+                             ^
+2022.11.17 12:15:14 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:75: stale bloop error: illegal character '\u00a7'
+    List() :: (for i <- 1 to ocs.length yield(ocs.take(i))).toList.flatten§
+                                                                          ^
+2022.11.17 12:15:14 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:5: stale bloop error: Not found: */
+    */l1 ::: (for (elem1 <- ))
+    ^^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:29: stale bloop error: expression expected but ')' found
+    */l1 ::: (for (elem1 <- ))
+                            ^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:30: stale bloop error: expression expected but ')' found
+    */l1 ::: (for (elem1 <- ))
+                             ^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:75: stale bloop error: illegal character '\u00a7'
+    List() :: (for i <- 1 to ocs.length yield(ocs.take(i))).toList.flatten§
+                                                                          ^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:5: stale bloop error: Not found: */
+    */l1 ::: (for (elem1 <- ))
+    ^^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:29: stale bloop error: expression expected but ')' found
+    */l1 ::: (for (elem1 <- ))
+                            ^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:30: stale bloop error: expression expected but ')' found
+    */l1 ::: (for (elem1 <- ))
+                             ^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:75: stale bloop error: illegal character '\u00a7'
+    List() :: (for i <- 1 to ocs.length yield(ocs.take(i))).toList.flatten§
+                                                                          ^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:5: stale bloop error: Not found: */
+    */l1 ::: (for (elem1 <- ))
+    ^^
+2022.11.17 12:15:15 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:29: stale bloop error: expression expected but ')' found
+    */l1 ::: (for (elem1 <- ))
+                            ^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:29: stale bloop error: expression expected but ')' found
+    */l1 ::: (for (elem1 <- ))
+                            ^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:30: stale bloop error: expression expected but ')' found
+    */l1 ::: (for (elem1 <- ))
+                             ^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:75: stale bloop error: illegal character '\u00a7'
+    List() :: (for i <- 1 to ocs.length yield(ocs.take(i))).toList.flatten§/
+                                                                          ^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:5: stale bloop error: Not found: */
+    */l1 ::: (for (elem1 <- ))
+    ^^
+2022.11.17 12:15:15 INFO  time: compiled cs210-forcomp in 91ms
+2022.11.17 12:15:16 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:29: stale bloop error: expression expected but ')' found
+    */l1 ::: (for (elem1 <- ))
+                            ^
+2022.11.17 12:15:16 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:30: stale bloop error: expression expected but ')' found
+    */l1 ::: (for (elem1 <- ))
+                             ^
+2022.11.17 12:15:16 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:75: stale bloop error: illegal character '\u00a7'
+    List() :: (for i <- 1 to ocs.length yield(ocs.take(i))).toList.flatten§/
+                                                                          ^
+2022.11.17 12:15:16 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:5: stale bloop error: Not found: */
+    */l1 ::: (for (elem1 <- ))
+    ^^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:29: stale bloop error: expression expected but ')' found
+    */l1 ::: (for (elem1 <- ))
+                            ^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:30: stale bloop error: expression expected but ')' found
+    */l1 ::: (for (elem1 <- ))
+                             ^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:75: stale bloop error: illegal character '\u00a7'
+    List() :: (for i <- 1 to ocs.length yield(ocs.take(i))).toList.flatten§/
+                                                                          ^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:5: stale bloop error: Not found: */
+    */l1 ::: (for (elem1 <- ))
+    ^^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:29: stale bloop error: expression expected but ')' found
+    */l1 ::: (for (elem1 <- ))
+                            ^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:30: stale bloop error: expression expected but ')' found
+    */l1 ::: (for (elem1 <- ))
+                             ^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:75: stale bloop error: illegal character '\u00a7'
+    List() :: (for i <- 1 to ocs.length yield(ocs.take(i))).toList.flatten§/
+                                                                          ^
+2022.11.17 12:15:15 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:5: stale bloop error: Not found: */
+    */l1 ::: (for (elem1 <- ))
+    ^^
+2022.11.17 12:15:16 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:15:16 INFO  time: compiled cs210-forcomp in 89ms
+2022.11.17 12:15:16 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:15:16 INFO  time: compiled cs210-forcomp in 78ms
+2022.11.17 12:15:19 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:15:19 INFO  time: compiled cs210-forcomp in 78ms
+2022.11.17 12:15:26 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:15:26 INFO  time: compiled cs210-forcomp in 0.25s
+2022.11.17 12:15:28 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:15:28 INFO  time: compiled cs210-forcomp in 0.11s
+2022.11.17 12:15:31 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:15:31 INFO  time: compiled cs210-forcomp in 0.1s
+2022.11.17 12:15:37 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:15:37 INFO  time: compiled cs210-forcomp in 0.1s
+2022.11.17 12:15:38 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:15:38 INFO  time: compiled cs210-forcomp in 0.24s
+2022.11.17 12:15:42 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:15:42 INFO  time: compiled cs210-forcomp in 0.46s
+2022.11.17 12:15:42 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:15:43 INFO  time: compiled cs210-forcomp in 0.47s
+2022.11.17 12:20:03 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:20:03 INFO  time: compiled cs210-forcomp in 0.65s
+2022.11.17 12:20:04 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:20:04 INFO  time: compiled cs210-forcomp in 99ms
+2022.11.17 12:20:05 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:20:05 INFO  time: compiled cs210-forcomp in 0.21s
+2022.11.17 12:20:05 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:20:06 INFO  time: compiled cs210-forcomp in 0.23s
+2022.11.17 12:20:06 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:20:06 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 12:20:12 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:20:12 INFO  time: compiled cs210-forcomp in 0.36s
+2022.11.17 12:20:12 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:20:12 INFO  time: compiled cs210-forcomp in 0.15s
+2022.11.17 12:20:14 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:20:14 INFO  time: compiled cs210-forcomp in 0.2s
+2022.11.17 12:20:14 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:20:14 INFO  time: compiled cs210-forcomp in 0.13s
+2022.11.17 12:20:15 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:20:15 INFO  time: compiled cs210-forcomp in 46ms
+2022.11.17 12:20:17 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:20:17 INFO  time: compiled cs210-forcomp in 52ms
+2022.11.17 12:20:18 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:20:18 INFO  time: compiled cs210-forcomp in 90ms
+2022.11.17 12:20:23 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:20:23 INFO  time: compiled cs210-forcomp in 0.19s
+2022.11.17 12:20:23 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:20:23 INFO  time: compiled cs210-forcomp in 98ms
+2022.11.17 12:20:23 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:20:25 INFO  time: compiled cs210-forcomp in 0.24s
+2022.11.17 12:20:31 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:20:31 INFO  time: compiled cs210-forcomp in 72ms
+2022.11.17 12:20:35 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:20:35 INFO  time: compiled cs210-forcomp in 0.23s
+2022.11.17 12:20:36 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:20:36 INFO  time: compiled cs210-forcomp in 0.1s
+2022.11.17 12:20:36 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:20:36 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 12:20:40 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:20:40 INFO  time: compiled cs210-forcomp in 69ms
+2022.11.17 12:20:40 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:20:40 INFO  time: compiled cs210-forcomp in 91ms
+2022.11.17 12:20:41 INFO  compiling cs210-forcomp (1 scala source)
+nov 17, 2022 12:20:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVVERTENZA: Unmatched cancel notification for request id 3347
+2022.11.17 12:20:41 INFO  time: compiled cs210-forcomp in 79ms
+2022.11.17 12:20:41 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:20:41 INFO  time: compiled cs210-forcomp in 68ms
+2022.11.17 12:41:48 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:41:48 INFO  time: compiled cs210-forcomp in 0.45s
+2022.11.17 12:41:51 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:41:51 INFO  time: compiled cs210-forcomp in 0.13s
+2022.11.17 12:41:54 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:41:54 INFO  time: compiled cs210-forcomp in 0.58s
+2022.11.17 12:41:55 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:41:55 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:41:55 INFO  time: compiled cs210-forcomp in 0.15s
+2022.11.17 12:41:56 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:42:00 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:42:00 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:42:00 INFO  time: compiled cs210-forcomp in 0.19s
+2022.11.17 12:42:00 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:42:00 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:42:00 INFO  time: compiled cs210-forcomp in 94ms
+2022.11.17 12:42:01 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:42:02 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:42:02 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:42:02 INFO  time: compiled cs210-forcomp in 74ms
+2022.11.17 12:42:02 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:42:02 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:42:02 INFO  time: compiled cs210-forcomp in 79ms
+2022.11.17 12:42:03 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:42:03 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:42:03 INFO  time: compiled cs210-forcomp in 33ms
+2022.11.17 12:42:04 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:42:03 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:42:03 INFO  time: compiled cs210-forcomp in 83ms
+2022.11.17 12:42:04 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:42:04 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:42:05 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:42:05 INFO  time: compiled cs210-forcomp in 91ms
+2022.11.17 12:42:06 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:42:05 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:42:05 INFO  time: compiled cs210-forcomp in 89ms
+2022.11.17 12:42:06 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:42:06 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:42:06 INFO  time: compiled cs210-forcomp in 84ms
+2022.11.17 12:42:07 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:44:01 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:49:57 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:49:59 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:49:59 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:00 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:50:00 INFO  time: compiled cs210-forcomp in 0.27s
+2022.11.17 12:50:01 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:01 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:50:01 INFO  time: compiled cs210-forcomp in 0.13s
+2022.11.17 12:50:01 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:01 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:50:01 INFO  time: compiled cs210-forcomp in 80ms
+2022.11.17 12:50:01 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:02 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:50:02 INFO  time: compiled cs210-forcomp in 0.15s
+2022.11.17 12:50:03 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:04 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:04 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:50:04 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:04 INFO  time: compiled cs210-forcomp in 87ms
+2022.11.17 12:50:05 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:04 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:50:05 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:04 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 12:50:06 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:06 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:50:06 INFO  time: compiled cs210-forcomp in 90ms
+2022.11.17 12:50:06 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:13 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:27: stale bloop error: expression expected but ')' found
+    l1 ::: (for (elem1 <- ))  
+                          ^
+2022.11.17 12:50:13 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:28: stale bloop error: expression expected but ')' found
+    l1 ::: (for (elem1 <- ))  
+                           ^
+2022.11.17 12:50:13 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:27: stale bloop error: expression expected but ')' found
+    l1 ::: (for (elem1 <- ))  
+                          ^
+2022.11.17 12:50:13 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:28: stale bloop error: expression expected but ')' found
+    l1 ::: (for (elem1 <- ))  
+                           ^
+2022.11.17 12:50:13 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:13 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:13 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:50:13 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 12:50:13 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:27: stale bloop error: expression expected but ')' found
+    l1 ::: (for (elem1 <- ))  
+                          ^
+2022.11.17 12:50:13 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:28: stale bloop error: expression expected but ')' found
+    l1 ::: (for (elem1 <- ))  
+                           ^
+2022.11.17 12:50:13 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:5: stale bloop error: None of the overloaded alternatives of method * in class Int with types
+ (x: Double): Double
+ (x: Float): Float
+ (x: Long): Long
+ (x: Int): Int
+ (x: Char): Int
+ (x: Short): Int
+ (x: Byte): Int
+match arguments (List[forcomp.Anagrams.Occurrences])
+    7*ocs.foldLeft(List[Occurrences](Nil))((l1,l2) => 
+    ^^
+2022.11.17 12:50:13 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:27: stale bloop error: expression expected but ')' found
+    l1 ::: (for (elem1 <- ))  
+                          ^
+2022.11.17 12:50:13 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:28: stale bloop error: expression expected but ')' found
+    l1 ::: (for (elem1 <- ))  
+                           ^
+2022.11.17 12:50:13 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:5: stale bloop error: None of the overloaded alternatives of method * in class Int with types
+ (x: Double): Double
+ (x: Float): Float
+ (x: Long): Long
+ (x: Int): Int
+ (x: Char): Int
+ (x: Short): Int
+ (x: Byte): Int
+match arguments (List[forcomp.Anagrams.Occurrences])
+    7*ocs.foldLeft(List[Occurrences](Nil))((l1,l2) => 
+    ^^
+2022.11.17 12:50:14 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:13 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:50:13 INFO  time: compiled cs210-forcomp in 78ms
+2022.11.17 12:50:14 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:27: stale bloop error: expression expected but ')' found
+    l1 ::: (for (elem1 <- ))  
+                          ^
+2022.11.17 12:50:14 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:28: stale bloop error: expression expected but ')' found
+    l1 ::: (for (elem1 <- ))  
+                           ^
+2022.11.17 12:50:14 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:27: stale bloop error: expression expected but ')' found
+    l1 ::: (for (elem1 <- ))  
+                          ^
+2022.11.17 12:50:14 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:28: stale bloop error: expression expected but ')' found
+    l1 ::: (for (elem1 <- ))  
+                           ^
+2022.11.17 12:50:14 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:14 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:27: stale bloop error: expression expected but ')' found
+    l1 ::: (for (elem1 <- ))  
+                          ^
+2022.11.17 12:50:14 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:28: stale bloop error: expression expected but ')' found
+    l1 ::: (for (elem1 <- ))  
+                           ^
+2022.11.17 12:50:14 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:50:14 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:5: stale bloop error: unclosed comment
+    /*ocs.foldLeft(List[Occurrences](Nil))((l1,l2) => 
+    ^
+2022.11.17 12:50:14 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:5: stale bloop error: unclosed comment
+    /*ocs.foldLeft(List[Occurrences](Nil))((l1,l2) => 
+    ^
+2022.11.17 12:50:14 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:29:32: stale bloop error: Not found: Dictionary
+  val dictionary: List[Word] = Dictionary.loadDictionary
+                               ^^^^^^^^^^
+2022.11.17 12:50:14 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:104: stale bloop error: Found:    Unit
+Required: List[forcomp.Anagrams.Occurrences]
+    val ocs: List[Occurrences] = occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+                                                                                                       ^
+2022.11.17 12:50:14 INFO  time: compiled cs210-forcomp in 0.21s
+2022.11.17 12:50:15 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:18 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:5: stale bloop error: unclosed comment
+    /*ocs.foldLeft(List[Occurrences](Nil))((l1,l2) => 
+    ^
+2022.11.17 12:50:18 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:29:32: stale bloop error: Not found: Dictionary
+  val dictionary: List[Word] = Dictionary.loadDictionary
+                               ^^^^^^^^^^
+2022.11.17 12:50:18 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:104: stale bloop error: Found:    Unit
+Required: List[forcomp.Anagrams.Occurrences]
+    val ocs: List[Occurrences] = occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+                                                                                                       ^
+2022.11.17 12:50:18 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:5: stale bloop error: unclosed comment
+    /*ocs.foldLeft(List[Occurrences](Nil))((l1,l2) => 
+    ^
+2022.11.17 12:50:18 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:29:32: stale bloop error: Not found: Dictionary
+  val dictionary: List[Word] = Dictionary.loadDictionary
+                               ^^^^^^^^^^
+2022.11.17 12:50:18 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:104: stale bloop error: Found:    Unit
+Required: List[forcomp.Anagrams.Occurrences]
+    val ocs: List[Occurrences] = occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+                                                                                                       ^
+2022.11.17 12:50:18 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:5: stale bloop error: unclosed comment
+    /*ocs.foldLeft(List[Occurrences](Nil))((l1,l2) => 
+    ^
+2022.11.17 12:50:18 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:29:32: stale bloop error: Not found: Dictionary
+  val dictionary: List[Word] = Dictionary.loadDictionary
+                               ^^^^^^^^^^
+2022.11.17 12:50:18 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:104: stale bloop error: Found:    Unit
+Required: List[forcomp.Anagrams.Occurrences]
+    val ocs: List[Occurrences] = occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+                                                                                                       ^
+2022.11.17 12:50:18 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:5: stale bloop error: unclosed comment
+    /*ocs.foldLeft(List[Occurrences](Nil))((l1,l2) => 
+    ^
+2022.11.17 12:50:18 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:29:32: stale bloop error: Not found: Dictionary
+  val dictionary: List[Word] = Dictionary.loadDictionary
+                               ^^^^^^^^^^
+2022.11.17 12:50:18 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:92:104: stale bloop error: Found:    Unit
+Required: List[forcomp.Anagrams.Occurrences]
+    val ocs: List[Occurrences] = occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList )
+                                                                                                       ^
+2022.11.17 12:50:18 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:18 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:50:18 INFO  time: compiled cs210-forcomp in 0.18s
+2022.11.17 12:50:19 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:32 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:32 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:50:32 INFO  time: compiled cs210-forcomp in 0.18s
+2022.11.17 12:50:32 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:50:32 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:32 INFO  time: compiled cs210-forcomp in 0.2s
+2022.11.17 12:50:32 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:32 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:50:33 INFO  time: compiled cs210-forcomp in 0.26s
+2022.11.17 12:50:33 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:36 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:36 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:50:36 INFO  time: compiled cs210-forcomp in 88ms
+2022.11.17 12:50:36 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:53 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:53 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:50:53 INFO  time: compiled cs210-forcomp in 0.11s
+2022.11.17 12:50:53 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:58 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:58 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:50:58 INFO  time: compiled cs210-forcomp in 0.11s
+2022.11.17 12:50:59 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:59 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:59 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:50:59 INFO  time: compiled cs210-forcomp in 0.11s
+2022.11.17 12:50:59 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:50:59 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:50:59 INFO  time: compiled cs210-forcomp in 0.13s
+2022.11.17 12:51:00 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:01 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:01 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:01 INFO  time: compiled cs210-forcomp in 66ms
+2022.11.17 12:51:01 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:04 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:05 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:05 INFO  time: compiled cs210-forcomp in 76ms
+2022.11.17 12:51:04 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:05 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:05 INFO  time: compiled cs210-forcomp in 46ms
+2022.11.17 12:51:06 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:06 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:06 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:06 INFO  time: compiled cs210-forcomp in 90ms
+2022.11.17 12:51:07 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:11 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:11 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:11 INFO  time: compiled cs210-forcomp in 58ms
+2022.11.17 12:51:12 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:12 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:12 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:12 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:12 INFO  time: compiled cs210-forcomp in 88ms
+2022.11.17 12:51:12 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:13 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:12 INFO  time: compiled cs210-forcomp in 95ms
+2022.11.17 12:51:13 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:12 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:13 INFO  time: compiled cs210-forcomp in 81ms
+2022.11.17 12:51:14 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:14 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:13 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:15 INFO  time: compiled cs210-forcomp in 0.32s
+2022.11.17 12:51:15 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:15 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:15 INFO  time: compiled cs210-forcomp in 0.33s
+2022.11.17 12:51:16 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:21 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:21 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:21 INFO  time: compiled cs210-forcomp in 0.27s
+2022.11.17 12:51:21 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:23 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:23 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:23 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:23 INFO  time: compiled cs210-forcomp in 0.31s
+2022.11.17 12:51:23 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:23 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:23 INFO  time: compiled cs210-forcomp in 0.3s
+2022.11.17 12:51:24 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:27 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:27 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:27 INFO  time: compiled cs210-forcomp in 0.28s
+2022.11.17 12:51:27 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:29 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:29 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:29 INFO  time: compiled cs210-forcomp in 0.29s
+2022.11.17 12:51:30 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:30 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:31 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:31 INFO  time: compiled cs210-forcomp in 0.26s
+2022.11.17 12:51:30 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:32 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:32 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:32 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:32 INFO  time: compiled cs210-forcomp in 0.25s
+2022.11.17 12:51:32 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:32 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:32 INFO  time: compiled cs210-forcomp in 0.29s
+2022.11.17 12:51:34 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:34 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:34 INFO  time: compiled cs210-forcomp in 0.28s
+2022.11.17 12:51:35 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:35 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:35 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:36 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:35 INFO  time: compiled cs210-forcomp in 0.26s
+2022.11.17 12:51:35 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:36 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:35 INFO  time: compiled cs210-forcomp in 0.43s
+2022.11.17 12:51:37 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:38 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:38 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:38 INFO  time: compiled cs210-forcomp in 0.3s
+2022.11.17 12:51:38 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:49 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:49 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:49 INFO  time: compiled cs210-forcomp in 0.28s
+2022.11.17 12:51:50 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:50 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:50 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:50 INFO  time: compiled cs210-forcomp in 85ms
+2022.11.17 12:51:51 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:50 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:50 INFO  time: compiled cs210-forcomp in 93ms
+2022.11.17 12:51:51 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:54 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:51:54 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:51:54 INFO  time: compiled cs210-forcomp in 79ms
+2022.11.17 12:51:54 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:03 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:03 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:52:03 INFO  time: compiled cs210-forcomp in 0.25s
+2022.11.17 12:52:03 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:04 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:04 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:52:04 INFO  time: compiled cs210-forcomp in 0.27s
+2022.11.17 12:52:04 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:07 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:08 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:52:08 INFO  time: compiled cs210-forcomp in 0.18s
+2022.11.17 12:52:08 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:09 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:09 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:52:09 INFO  time: compiled cs210-forcomp in 0.21s
+2022.11.17 12:52:10 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:11 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:11 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:52:11 INFO  time: compiled cs210-forcomp in 0.21s
+2022.11.17 12:52:12 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:13 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:14 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:52:14 INFO  time: compiled cs210-forcomp in 0.2s
+2022.11.17 12:52:13 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:48 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:48 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:52:48 INFO  time: compiled cs210-forcomp in 76ms
+2022.11.17 12:52:48 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:50 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:50 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:52:50 INFO  time: compiled cs210-forcomp in 76ms
+2022.11.17 12:52:50 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:51 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:50 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:52:50 INFO  time: compiled cs210-forcomp in 78ms
+2022.11.17 12:52:51 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:51 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:52:51 INFO  time: compiled cs210-forcomp in 83ms
+2022.11.17 12:52:52 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:57 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:57 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:52:57 INFO  time: compiled cs210-forcomp in 93ms
+2022.11.17 12:52:57 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:58 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:58 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:52:58 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 12:52:58 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:59 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:59 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:52:59 INFO  time: compiled cs210-forcomp in 85ms
+2022.11.17 12:53:00 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:52:59 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:53:00 INFO  time: compiled cs210-forcomp in 61ms
+2022.11.17 12:53:01 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:00 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:53:00 INFO  time: compiled cs210-forcomp in 72ms
+2022.11.17 12:53:01 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:03 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:03 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:53:03 INFO  time: compiled cs210-forcomp in 98ms
+2022.11.17 12:53:03 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:04 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:05 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:53:05 INFO  time: compiled cs210-forcomp in 85ms
+2022.11.17 12:53:04 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:07 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:07 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:53:07 INFO  time: compiled cs210-forcomp in 28ms
+2022.11.17 12:53:08 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:09 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:09 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:10 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:53:10 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 12:53:10 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:10 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:11 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:53:11 INFO  time: compiled cs210-forcomp in 90ms
+2022.11.17 12:53:11 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:11 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:53:11 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 12:53:12 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:12 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:53:12 INFO  time: compiled cs210-forcomp in 0.13s
+2022.11.17 12:53:13 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:12 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:53:12 INFO  time: compiled cs210-forcomp in 87ms
+2022.11.17 12:53:13 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:14 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:14 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:53:14 INFO  time: compiled cs210-forcomp in 85ms
+2022.11.17 12:53:14 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:22 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:22 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:53:22 INFO  time: compiled cs210-forcomp in 94ms
+2022.11.17 12:53:23 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:24 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:24 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:25 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:53:25 INFO  time: compiled cs210-forcomp in 68ms
+2022.11.17 12:53:25 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:27 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:27 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:53:27 INFO  time: compiled cs210-forcomp in 66ms
+2022.11.17 12:53:27 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:30 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:30 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:53:30 INFO  time: compiled cs210-forcomp in 94ms
+2022.11.17 12:53:30 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:31 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:32 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:53:32 INFO  time: compiled cs210-forcomp in 0.22s
+2022.11.17 12:53:32 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:34 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:34 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:53:34 INFO  time: compiled cs210-forcomp in 0.17s
+2022.11.17 12:53:35 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:35 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:36 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:53:36 INFO  time: compiled cs210-forcomp in 53ms
+2022.11.17 12:53:36 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:36 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:36 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:53:37 INFO  time: compiled cs210-forcomp in 0.29s
+2022.11.17 12:53:37 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:40 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:53:40 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:53:40 INFO  time: compiled cs210-forcomp in 0.2s
+2022.11.17 12:53:41 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+nov 17, 2022 12:54:14 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2499)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.isForComprehensionOwner$1(PcDocumentHighlightProvider.scala:163)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.collectNames$1(PcDocumentHighlightProvider.scala:178)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.$anonfun$4(PcDocumentHighlightProvider.scala:275)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1586)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1562)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1554)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1623)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1568)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1554)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1623)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1568)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1554)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1568)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1623)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1568)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1554)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1568)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1623)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1630)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1627)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1636)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1541)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.highlights(PcDocumentHighlightProvider.scala:276)
+
+2022.11.17 12:54:14 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:54:18 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:54:19 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:54:19 INFO  time: compiled cs210-forcomp in 0.2s
+2022.11.17 12:54:18 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:54:20 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:54:21 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:54:21 INFO  time: compiled cs210-forcomp in 0.2s
+2022.11.17 12:54:21 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:54:26 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:54:26 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:54:26 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 12:54:26 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:54:29 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:52: stale bloop error: expression expected but def found
+    ocs.foldLeft(List[Occurrences](Nil))((l1,l2) => 
+                                                   ^
+2022.11.17 12:54:29 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:52: stale bloop error: expression expected but def found
+    ocs.foldLeft(List[Occurrences](Nil))((l1,l2) => 
+                                                   ^
+2022.11.17 12:54:29 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:54:29 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:93:52: stale bloop error: expression expected but def found
+    ocs.foldLeft(List[Occurrences](Nil))((l1,l2) => 
+                                                   ^
+2022.11.17 12:54:29 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:54:29 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:5: stale bloop error: unclosed comment
+    /*l1 ::: (for (elem1 <- ))  
+    ^
+2022.11.17 12:54:29 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:5: stale bloop error: unclosed comment
+    /*l1 ::: (for (elem1 <- ))  
+    ^
+2022.11.17 12:54:29 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:167:1: stale bloop error: expression expected but eof found
+
+^
+2022.11.17 12:54:29 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:29:32: stale bloop error: Not found: Dictionary
+  val dictionary: List[Word] = Dictionary.loadDictionary
+                               ^^^^^^^^^^
+2022.11.17 12:54:29 INFO  time: compiled cs210-forcomp in 81ms
+2022.11.17 12:54:29 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:54:31 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:5: stale bloop error: unclosed comment
+    /*l1 ::: (for (elem1 <- ))  
+    ^
+2022.11.17 12:54:31 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:167:1: stale bloop error: expression expected but eof found
+
+^
+2022.11.17 12:54:31 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:29:32: stale bloop error: Not found: Dictionary
+  val dictionary: List[Word] = Dictionary.loadDictionary
+                               ^^^^^^^^^^
+2022.11.17 12:54:31 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:54:31 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:5: stale bloop error: unclosed comment
+    /*l1 ::: (for (elem1 <- ))  
+    ^
+2022.11.17 12:54:31 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:167:1: stale bloop error: expression expected but eof found
+
+^
+2022.11.17 12:54:31 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:29:32: stale bloop error: Not found: Dictionary
+  val dictionary: List[Word] = Dictionary.loadDictionary
+                               ^^^^^^^^^^
+2022.11.17 12:54:31 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:94:5: stale bloop error: unclosed comment
+    /*l1 ::: (for (elem1 <- ))  
+    ^
+2022.11.17 12:54:31 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:167:1: stale bloop error: expression expected but eof found
+
+^
+2022.11.17 12:54:31 INFO  file:///Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:29:32: stale bloop error: Not found: Dictionary
+  val dictionary: List[Word] = Dictionary.loadDictionary
+                               ^^^^^^^^^^
+2022.11.17 12:54:31 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:54:31 INFO  time: compiled cs210-forcomp in 69ms
+2022.11.17 12:54:32 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:55:03 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:55:03 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:55:03 INFO  time: compiled cs210-forcomp in 68ms
+2022.11.17 12:55:03 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:58:22 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:58:25 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:58:25 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:58:25 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 12:58:25 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:58:26 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:58:26 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:58:26 INFO  time: compiled cs210-forcomp in 88ms
+2022.11.17 12:58:26 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:58:26 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:58:26 INFO  time: compiled cs210-forcomp in 0.11s
+2022.11.17 12:58:26 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:58:27 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:58:26 INFO  time: compiled cs210-forcomp in 87ms
+2022.11.17 12:58:27 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:58:28 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:58:28 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:58:28 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 12:58:28 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:58:28 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:58:28 INFO  time: compiled cs210-forcomp in 75ms
+2022.11.17 12:58:29 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:58:29 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:58:29 INFO  time: compiled cs210-forcomp in 0.14s
+2022.11.17 12:58:29 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:58:29 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:58:29 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 12:58:30 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:58:30 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:58:30 INFO  time: compiled cs210-forcomp in 89ms
+2022.11.17 12:58:30 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:58:33 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:58:33 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:58:33 INFO  time: compiled cs210-forcomp in 0.11s
+2022.11.17 12:58:33 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:58:34 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:58:33 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:58:34 INFO  time: compiled cs210-forcomp in 87ms
+2022.11.17 12:58:35 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:58:34 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:58:34 INFO  time: compiled cs210-forcomp in 80ms
+2022.11.17 12:58:36 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:58:36 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:58:36 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:58:36 INFO  time: compiled cs210-forcomp in 0.11s
+2022.11.17 12:58:37 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:58:36 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:58:36 INFO  time: compiled cs210-forcomp in 0.2s
+2022.11.17 12:58:37 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:58:38 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:58:38 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:58:38 INFO  time: compiled cs210-forcomp in 82ms
+2022.11.17 12:58:39 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:58:38 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:58:39 INFO  time: compiled cs210-forcomp in 83ms
+2022.11.17 12:58:39 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 12:58:39 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:58:39 INFO  time: compiled cs210-forcomp in 0.45s
+2022.11.17 12:58:41 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:58:41 INFO  time: compiled cs210-forcomp in 34ms
+2022.11.17 12:58:43 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:58:43 INFO  time: compiled cs210-forcomp in 0.17s
+2022.11.17 12:58:44 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:58:44 INFO  time: compiled cs210-forcomp in 0.3s
+2022.11.17 12:58:44 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:58:45 INFO  time: compiled cs210-forcomp in 0.1s
+2022.11.17 12:58:45 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 12:58:45 INFO  time: compiled cs210-forcomp in 0.13s
+2022.11.17 13:00:31 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 13:00:31 INFO  time: compiled cs210-forcomp in 0.37s
+2022.11.17 13:00:31 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 13:00:31 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 13:00:33 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 13:00:33 INFO  time: compiled cs210-forcomp in 0.28s
+2022.11.17 13:00:46 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 13:00:46 INFO  time: compiled cs210-forcomp in 0.39s
+2022.11.17 13:00:47 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 13:00:46 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 13:00:46 INFO  time: compiled cs210-forcomp in 0.24s
+2022.11.17 13:00:52 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 13:00:52 INFO  time: compiled cs210-forcomp in 0.15s
+2022.11.17 13:02:47 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 13:02:47 INFO  time: compiled cs210-forcomp in 0.3s
+2022.11.17 13:02:52 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 13:02:52 INFO  time: compiled cs210-forcomp in 0.21s
+nov 17, 2022 1:05:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVVERTENZA: Unmatched cancel notification for request id 4297
+nov 17, 2022 1:06:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVVERTENZA: Unmatched cancel notification for request id 4301
+2022.11.17 14:33:16 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:16 INFO  time: compiled cs210-forcomp in 0.27s
+2022.11.17 14:33:18 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:18 INFO  time: compiled cs210-forcomp in 0.25s
+2022.11.17 14:33:18 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:19 INFO  time: compiled cs210-forcomp in 0.36s
+2022.11.17 14:33:20 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:20 INFO  time: compiled cs210-forcomp in 0.28s
+2022.11.17 14:33:20 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:20 INFO  time: compiled cs210-forcomp in 0.11s
+2022.11.17 14:33:22 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:22 INFO  time: compiled cs210-forcomp in 83ms
+2022.11.17 14:33:24 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:24 INFO  time: compiled cs210-forcomp in 0.2s
+2022.11.17 14:33:24 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:24 INFO  time: compiled cs210-forcomp in 0.18s
+2022.11.17 14:33:28 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:28 INFO  time: compiled cs210-forcomp in 0.16s
+2022.11.17 14:33:31 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:31 INFO  time: compiled cs210-forcomp in 94ms
+2022.11.17 14:33:31 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:31 INFO  time: compiled cs210-forcomp in 46ms
+2022.11.17 14:33:36 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:36 INFO  time: compiled cs210-forcomp in 61ms
+2022.11.17 14:33:36 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:36 INFO  time: compiled cs210-forcomp in 94ms
+2022.11.17 14:33:40 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:40 INFO  time: compiled cs210-forcomp in 0.17s
+2022.11.17 14:33:40 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:40 INFO  time: compiled cs210-forcomp in 96ms
+2022.11.17 14:33:42 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:42 INFO  time: compiled cs210-forcomp in 85ms
+2022.11.17 14:33:42 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:43 INFO  time: compiled cs210-forcomp in 0.26s
+2022.11.17 14:33:43 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:43 INFO  time: compiled cs210-forcomp in 0.13s
+2022.11.17 14:33:45 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:45 INFO  time: compiled cs210-forcomp in 35ms
+2022.11.17 14:33:45 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:45 INFO  time: compiled cs210-forcomp in 64ms
+2022.11.17 14:33:45 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:46 INFO  time: compiled cs210-forcomp in 63ms
+nov 17, 2022 2:33:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVVERTENZA: Unmatched cancel notification for request id 4460
+2022.11.17 14:33:46 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:46 INFO  time: compiled cs210-forcomp in 92ms
+2022.11.17 14:33:47 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:47 INFO  time: compiled cs210-forcomp in 56ms
+nov 17, 2022 2:33:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVVERTENZA: Unmatched cancel notification for request id 4476
+2022.11.17 14:33:47 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:47 INFO  time: compiled cs210-forcomp in 88ms
+2022.11.17 14:33:47 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:48 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 14:33:50 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:50 INFO  time: compiled cs210-forcomp in 99ms
+2022.11.17 14:33:51 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:51 INFO  time: compiled cs210-forcomp in 0.18s
+2022.11.17 14:33:51 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:51 INFO  time: compiled cs210-forcomp in 77ms
+2022.11.17 14:33:52 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:52 INFO  time: compiled cs210-forcomp in 75ms
+2022.11.17 14:33:53 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:53 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 14:33:54 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:54 INFO  time: compiled cs210-forcomp in 61ms
+2022.11.17 14:33:54 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:54 INFO  time: compiled cs210-forcomp in 76ms
+2022.11.17 14:33:56 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:56 INFO  time: compiled cs210-forcomp in 0.11s
+2022.11.17 14:33:56 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:33:56 INFO  time: compiled cs210-forcomp in 71ms
+2022.11.17 14:34:01 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:01 INFO  time: compiled cs210-forcomp in 75ms
+2022.11.17 14:34:03 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:03 INFO  time: compiled cs210-forcomp in 95ms
+2022.11.17 14:34:04 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:04 INFO  time: compiled cs210-forcomp in 56ms
+2022.11.17 14:34:04 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:04 INFO  time: compiled cs210-forcomp in 0.25s
+2022.11.17 14:34:04 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:04 INFO  time: compiled cs210-forcomp in 58ms
+2022.11.17 14:34:05 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:05 INFO  time: compiled cs210-forcomp in 80ms
+2022.11.17 14:34:05 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:05 INFO  time: compiled cs210-forcomp in 0.1s
+2022.11.17 14:34:08 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:08 INFO  time: compiled cs210-forcomp in 66ms
+2022.11.17 14:34:09 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:09 INFO  time: compiled cs210-forcomp in 50ms
+2022.11.17 14:34:09 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:09 INFO  time: compiled cs210-forcomp in 0.11s
+2022.11.17 14:34:09 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:09 INFO  time: compiled cs210-forcomp in 0.1s
+2022.11.17 14:34:13 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:13 INFO  time: compiled cs210-forcomp in 30ms
+2022.11.17 14:34:14 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:14 INFO  time: compiled cs210-forcomp in 40ms
+2022.11.17 14:34:14 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:14 INFO  time: compiled cs210-forcomp in 80ms
+2022.11.17 14:34:18 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:18 INFO  time: compiled cs210-forcomp in 96ms
+2022.11.17 14:34:18 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:18 INFO  time: compiled cs210-forcomp in 0.14s
+2022.11.17 14:34:20 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:20 INFO  time: compiled cs210-forcomp in 62ms
+2022.11.17 14:34:21 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:21 INFO  time: compiled cs210-forcomp in 50ms
+2022.11.17 14:34:21 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:21 INFO  time: compiled cs210-forcomp in 89ms
+2022.11.17 14:34:23 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:23 INFO  time: compiled cs210-forcomp in 80ms
+2022.11.17 14:34:23 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:23 INFO  time: compiled cs210-forcomp in 75ms
+2022.11.17 14:34:25 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:25 INFO  time: compiled cs210-forcomp in 72ms
+2022.11.17 14:34:26 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:26 INFO  time: compiled cs210-forcomp in 89ms
+2022.11.17 14:34:27 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:27 INFO  time: compiled cs210-forcomp in 89ms
+2022.11.17 14:34:27 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:27 INFO  time: compiled cs210-forcomp in 75ms
+2022.11.17 14:34:31 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:31 INFO  time: compiled cs210-forcomp in 0.1s
+2022.11.17 14:34:31 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:31 INFO  time: compiled cs210-forcomp in 90ms
+2022.11.17 14:34:32 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:32 INFO  time: compiled cs210-forcomp in 81ms
+2022.11.17 14:34:32 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:32 INFO  time: compiled cs210-forcomp in 77ms
+2022.11.17 14:34:34 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:34 INFO  time: compiled cs210-forcomp in 69ms
+2022.11.17 14:34:34 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:34 INFO  time: compiled cs210-forcomp in 50ms
+2022.11.17 14:34:34 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:35 INFO  time: compiled cs210-forcomp in 71ms
+2022.11.17 14:34:35 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:35 INFO  time: compiled cs210-forcomp in 45ms
+2022.11.17 14:34:44 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:44 INFO  time: compiled cs210-forcomp in 97ms
+2022.11.17 14:34:44 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:44 INFO  time: compiled cs210-forcomp in 86ms
+2022.11.17 14:34:46 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:46 INFO  time: compiled cs210-forcomp in 59ms
+2022.11.17 14:34:48 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:48 INFO  time: compiled cs210-forcomp in 0.19s
+2022.11.17 14:34:49 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:49 INFO  time: compiled cs210-forcomp in 72ms
+2022.11.17 14:34:49 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:49 INFO  time: compiled cs210-forcomp in 72ms
+2022.11.17 14:34:51 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:51 INFO  time: compiled cs210-forcomp in 0.14s
+2022.11.17 14:34:51 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:51 INFO  time: compiled cs210-forcomp in 93ms
+2022.11.17 14:34:51 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:51 INFO  time: compiled cs210-forcomp in 96ms
+2022.11.17 14:34:53 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:53 INFO  time: compiled cs210-forcomp in 67ms
+2022.11.17 14:34:53 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:54 INFO  time: compiled cs210-forcomp in 93ms
+2022.11.17 14:34:55 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:55 INFO  time: compiled cs210-forcomp in 77ms
+2022.11.17 14:34:55 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:55 INFO  time: compiled cs210-forcomp in 68ms
+2022.11.17 14:34:55 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:57 INFO  time: compiled cs210-forcomp in 0.17s
+2022.11.17 14:34:57 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:57 INFO  time: compiled cs210-forcomp in 57ms
+2022.11.17 14:34:58 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:58 INFO  time: compiled cs210-forcomp in 92ms
+2022.11.17 14:34:58 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:58 INFO  time: compiled cs210-forcomp in 95ms
+2022.11.17 14:34:59 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:34:59 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 14:34:59 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:00 INFO  time: compiled cs210-forcomp in 98ms
+2022.11.17 14:35:03 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:03 INFO  time: compiled cs210-forcomp in 0.1s
+2022.11.17 14:35:05 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:05 INFO  time: compiled cs210-forcomp in 87ms
+2022.11.17 14:35:05 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:05 INFO  time: compiled cs210-forcomp in 79ms
+2022.11.17 14:35:05 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:05 INFO  time: compiled cs210-forcomp in 96ms
+2022.11.17 14:35:08 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:08 INFO  time: compiled cs210-forcomp in 66ms
+2022.11.17 14:35:08 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:08 INFO  time: compiled cs210-forcomp in 85ms
+2022.11.17 14:35:11 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:11 INFO  time: compiled cs210-forcomp in 0.1s
+2022.11.17 14:35:11 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:12 INFO  time: compiled cs210-forcomp in 51ms
+2022.11.17 14:35:13 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:13 INFO  time: compiled cs210-forcomp in 84ms
+2022.11.17 14:35:15 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:15 INFO  time: compiled cs210-forcomp in 91ms
+2022.11.17 14:35:15 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:15 INFO  time: compiled cs210-forcomp in 81ms
+2022.11.17 14:35:17 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:17 INFO  time: compiled cs210-forcomp in 0.16s
+2022.11.17 14:35:19 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:19 INFO  time: compiled cs210-forcomp in 74ms
+2022.11.17 14:35:21 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:21 INFO  time: compiled cs210-forcomp in 0.11s
+2022.11.17 14:35:21 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:22 INFO  time: compiled cs210-forcomp in 59ms
+2022.11.17 14:35:25 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:25 INFO  time: compiled cs210-forcomp in 72ms
+2022.11.17 14:35:27 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:27 INFO  time: compiled cs210-forcomp in 80ms
+2022.11.17 14:35:28 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:28 INFO  time: compiled cs210-forcomp in 78ms
+2022.11.17 14:35:28 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:28 INFO  time: compiled cs210-forcomp in 70ms
+2022.11.17 14:35:32 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:32 INFO  time: compiled cs210-forcomp in 68ms
+2022.11.17 14:35:32 INFO  compiling cs210-forcomp (1 scala source)
+nov 17, 2022 2:35:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVVERTENZA: Unmatched cancel notification for request id 4918
+2022.11.17 14:35:32 INFO  time: compiled cs210-forcomp in 74ms
+2022.11.17 14:35:32 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:33 INFO  time: compiled cs210-forcomp in 97ms
+2022.11.17 14:35:34 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:34 INFO  time: compiled cs210-forcomp in 73ms
+2022.11.17 14:35:34 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:34 INFO  time: compiled cs210-forcomp in 88ms
+2022.11.17 14:35:37 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:37 INFO  time: compiled cs210-forcomp in 67ms
+2022.11.17 14:35:39 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:39 INFO  time: compiled cs210-forcomp in 42ms
+2022.11.17 14:35:39 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:39 INFO  time: compiled cs210-forcomp in 94ms
+2022.11.17 14:35:41 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:41 INFO  time: compiled cs210-forcomp in 0.13s
+2022.11.17 14:35:43 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:43 INFO  time: compiled cs210-forcomp in 94ms
+2022.11.17 14:35:45 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:35:45 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 14:36:55 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:36:55 INFO  time: compiled cs210-forcomp in 65ms
+2022.11.17 14:36:55 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:36:55 INFO  time: compiled cs210-forcomp in 83ms
+2022.11.17 14:36:59 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:36:59 INFO  time: compiled cs210-forcomp in 0.46s
+2022.11.17 14:37:02 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:37:02 INFO  time: compiled cs210-forcomp in 0.23s
+2022.11.17 14:37:06 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:37:06 INFO  time: compiled cs210-forcomp in 0.22s
+2022.11.17 14:37:07 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:37:07 INFO  time: compiled cs210-forcomp in 83ms
+2022.11.17 14:37:07 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:37:08 INFO  time: compiled cs210-forcomp in 0.16s
+2022.11.17 14:37:08 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:37:08 INFO  time: compiled cs210-forcomp in 0.19s
+2022.11.17 14:37:08 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:37:08 INFO  time: compiled cs210-forcomp in 0.12s
+2022.11.17 14:37:10 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:37:10 INFO  time: compiled cs210-forcomp in 0.19s
+2022.11.17 14:37:11 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:37:11 INFO  time: compiled cs210-forcomp in 84ms
+2022.11.17 14:37:11 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:37:12 INFO  time: compiled cs210-forcomp in 0.23s
+2022.11.17 14:37:15 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:37:15 INFO  time: compiled cs210-forcomp in 46ms
+2022.11.17 14:37:15 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 14:37:17 WARN  Could not load snapshot text for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala
+2022.11.17 14:37:17 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:37:17 INFO  time: compiled cs210-forcomp in 0.16s
+2022.11.17 14:37:50 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:37:50 INFO  time: compiled cs210-forcomp in 0.13s
+2022.11.17 14:37:50 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:37:50 INFO  time: compiled cs210-forcomp in 0.22s
+2022.11.17 14:37:55 INFO  compiling cs210-forcomp (1 scala source)
+2022.11.17 14:37:55 INFO  time: compiled cs210-forcomp in 0.35s
+2022.11.17 14:38:30 INFO  shutting down Metals
+2022.11.17 14:38:30 INFO  Shut down connection with build server.
+2022.11.17 14:38:30 INFO  Shut down connection with build server.
+2022.11.17 14:38:30 INFO  Shut down connection with build server.

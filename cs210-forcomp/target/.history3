@@ -1,0 +1,5 @@
+1668675147578:Grading/test
+1668678499108:~test
+1668678516826:Grading/test
+1668680485876:val ocs: List[Occurrences] = (occurrences.map( occ => (1 to occ._2).map( o => (occ._1, o) ).toList ))
+1668681999481:Grading/test

@@ -1,0 +1,18 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-recfun/src/main/scala/recfun/RecFun.scala:52:60 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m52 |[0m        cnumCombo(money - coins.head, coins) + numCombomoney, coins.tail)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                            ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                 end of statement expected but ',' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-recfun/src/main/scala/recfun/RecFun.scala:52:8 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m52 |[0m        cnumCombo(money - coins.head, coins) + numCombomoney, coins.tail)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m        ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        Not found: cnumCombo[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-recfun/src/main/scala/recfun/RecFun.scala:55:3 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m55 |[0m  }[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m   ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   Found:    Unit[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   Required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

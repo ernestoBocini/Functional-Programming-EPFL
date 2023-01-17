@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Grading/test, Some(bc03b753-5d11-4510-983c-e19d1e9fd026), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Grading / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/ernestobocini/epflCourses/cs-210-FP/cs210-quickcheck/target/scala-3.2.0/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m+ Heap.gen1: OK, passed 100 tests.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m+ Heap.min1: OK, passed 100 tests.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m+ Heap.min2: OK, passed 100 tests.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m+ Heap.min3: OK, passed 100 tests.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m+ Heap.sorted: OK, passed 100 tests.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m+ Heap.meldmin: OK, passed 100 tests.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m+ Heap.meld2: OK, passed 100 tests.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 13, Failed 0, Errors 0, Passed 13[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 3 s, completed 17-nov-2022 19.18.18[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

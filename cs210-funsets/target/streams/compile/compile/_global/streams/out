@@ -1,0 +1,9 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-funsets/src/main/scala/funsets/FunSets.scala:101:2 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m101 |[0m  [33mdef[0m [36mtoString[0m([36ms[0m: [35mFunSet[0m): [35mString[0m =[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m  ^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m  'then' expected, but unindent found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-funsets/src/main/scala/funsets/FunSets.scala:88:30 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m88 |[0m    ([36mvalue[0m:[35mInt[0m) => [33mif[0m(s(value && f(value)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                        ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                        value && is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

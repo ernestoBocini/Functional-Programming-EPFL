@@ -1,0 +1,6 @@
+{
+    "recommendations": [
+      "scalameta.metals",
+      "ms-python.vscode-pylance"
+    ]
+  }

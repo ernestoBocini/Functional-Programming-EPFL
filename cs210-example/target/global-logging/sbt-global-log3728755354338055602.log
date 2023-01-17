@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(10ab08db-8df8-4ebc-878a-fdc2b3a75843), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 6, Failed 0, Errors 0, Passed 6[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 2 s, completed 25-set-2022 12.02.16[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

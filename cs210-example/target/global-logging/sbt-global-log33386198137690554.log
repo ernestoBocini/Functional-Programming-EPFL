@@ -1,0 +1,9 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Grading/test, Some(bc517254-952c-444c-a27c-682f59d492d1), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Grading / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 6, Failed 1, Errors 0, Passed 5[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	example.ListsSuite[0m
+[0m[[0m[31merror[0m] [0m[0m(Grading / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 25-set-2022 12.02.29[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

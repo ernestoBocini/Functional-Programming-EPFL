@@ -1,0 +1,40 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Grading/test, Some(849a1579-8b4a-4854-a370-32053f59e365), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Grading / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/ernestobocini/epflCourses/cs-210-FP/cs210-objsets/target/scala-3.2.0/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-objsets/src/main/scala/objsets/TweetSet.scala:222:24 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m222 |[0m     googleTweets.filter([36ma[0m => google.exists([36mp[0m => a.text.contains(p)))[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m     Infinite loop in function body[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m     objsets.GoogleVsApple.googleTweets.filter([0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m       {[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m         [33mdef[0m [36m$anonfun[0m([36ma[0m: [35mobjsets.Tweet[0m): [35mBoolean[0m = [0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m           objsets.GoogleVsApple.google.exists([0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m             {[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m               [33mdef[0m [36m$anonfun[0m([36mp[0m: [35mString[0m): [35mBoolean[0m = a.text.contains(p)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m               closure($anonfun)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m             }[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m           )[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m         closure($anonfun)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m       }[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m     )[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-objsets/src/main/scala/objsets/TweetSet.scala:226:22 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m226 |[0m    appleTweets.filter([36ma[0m=> apple.exists([36mp[0m => a.text.contains(p)))[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m    Infinite loop in function body[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m    objsets.GoogleVsApple.appleTweets.filter([0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m      {[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m        [33mdef[0m [36m$anonfun[0m([36ma[0m: [35mobjsets.Tweet[0m): [35mBoolean[0m = [0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m          objsets.GoogleVsApple.apple.exists([0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m            {[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m              [33mdef[0m [36m$anonfun[0m([36mp[0m: [35mString[0m): [35mBoolean[0m = a.text.contains(p)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m              closure($anonfun)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m            }[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m          )[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m        closure($anonfun)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m      }[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m    )[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m
+[0m[[0m[31merror[0m] [0m[0mError: Total 0, Failed 0, Errors 0, Passed 0[0m
+[0m[[0m[31merror[0m] [0m[0mError during tests:[0m

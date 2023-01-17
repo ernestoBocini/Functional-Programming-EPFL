@@ -1,0 +1,24 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Grading/test, Some(2d9a610c-3378-4152-a78e-e55e361fa960), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Grading / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/ernestobocini/epflCourses/cs-210-FP/cs210-funsets/target/scala-3.2.0/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-funsets/src/main/scala/funsets/FunSets.scala:96:56 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m96 |[0m      [33melse[0m [33mif[0m s(value) [33mthen[0m newSet(value +[31m1[0m, finSet ++ f(value))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                       ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                             Found:    Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                             Required: IterableOnce[Int][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- [E129] Potential Issue Warning: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-funsets/src/main/scala/funsets/FunSets.scala:95:28 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m95 |[0m      [33mif[0m value >= [31m1000[0m [33mthen[0m finSet[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                            ^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mA pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 4 s, completed 28-set-2022 21.07.18[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

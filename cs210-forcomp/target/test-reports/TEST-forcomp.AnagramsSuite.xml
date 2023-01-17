@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="MacBook-Pro-di-ERNESTO.local" name="forcomp.AnagramsSuite" tests="11" errors="0" failures="10" skipped="0" time="0.192" timestamp="2022-11-17T10:48:22">
+          <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="jna.platform.library.path" value="/usr/lib:/usr/lib"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="sun.boot.library.path" value="/Users/ernestobocini/Library/Caches/Coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_mac_hotspot_8u292b10.tar.gz/jdk8u292-b10/Contents/Home/jre/lib"/><property name="java.vm.version" value="25.292-b10"/><property name="gopherProxySet" value="false"/><property name="java.vm.vendor" value="AdoptOpenJDK"/><property name="java.vendor.url" value="https://adoptopenjdk.net/"/><property name="path.separator" value=":"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="IT"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp"/><property name="java.runtime.version" value="1.8.0_292-b10"/><property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/><property name="java.endorsed.dirs" value="/Users/ernestobocini/Library/Caches/Coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_mac_hotspot_8u292b10.tar.gz/jdk8u292-b10/Contents/Home/jre/lib/endorsed"/><property name="os.arch" value="x86_64"/><property name="java.io.tmpdir" value="/var/folders/qx/mbfp35d17jz5g1qfw4xsv3yc0000gn/T/"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="log4j.ignoreTCL" value="true"/><property name="os.name" value="Mac OS X"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/Users/ernestobocini/Library/Caches/JNA/temp/jna4033523851838209452.tmp"/><property name="java.library.path" value="/Users/ernestobocini/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sbt.ipcsocket.tmpdir" value="/var/folders/qx/mbfp35d17jz5g1qfw4xsv3yc0000gn/T/.sbt/ipcsocket"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.16"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="swoval.tmpdir" value="/var/folders/qx/mbfp35d17jz5g1qfw4xsv3yc0000gn/T/.sbt/swoval"/><property name="user.home" value="/Users/ernestobocini"/><property name="user.timezone" value="Europe/Zurich"/><property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/opt/homebrew/Cellar/sbt/1.7.1/libexec/bin/sbt-launch.jar"/><property name="user.name" value="ernestobocini"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="/opt/homebrew/Cellar/sbt/1.7.1/libexec/bin/sbt-launch.jar"/><property name="java.home" value="/Users/ernestobocini/Library/Caches/Coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_mac_hotspot_8u292b10.tar.gz/jdk8u292-b10/Contents/Home/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="it"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_292"/><property name="java.ext.dirs" value="/Users/ernestobocini/Library/Java/Extensions:/Users/ernestobocini/Library/Caches/Coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_mac_hotspot_8u292b10.tar.gz/jdk8u292-b10/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/><property name="sun.boot.class.path" value="/Users/ernestobocini/Library/Caches/Coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_mac_hotspot_8u292b10.tar.gz/jdk8u292-b10/Contents/Home/jre/lib/resources.jar:/Users/ernestobocini/Library/Caches/Coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_mac_hotspot_8u292b10.tar.gz/jdk8u292-b10/Contents/Home/jre/lib/rt.jar:/Users/ernestobocini/Library/Caches/Coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_mac_hotspot_8u292b10.tar.gz/jdk8u292-b10/Contents/Home/jre/lib/sunrsasign.jar:/Users/ernestobocini/Library/Caches/Coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_mac_hotspot_8u292b10.tar.gz/jdk8u292-b10/Contents/Home/jre/lib/jsse.jar:/Users/ernestobocini/Library/Caches/Coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_mac_hotspot_8u292b10.tar.gz/jdk8u292-b10/Contents/Home/jre/lib/jce.jar:/Users/ernestobocini/Library/Caches/Coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_mac_hotspot_8u292b10.tar.gz/jdk8u292-b10/Contents/Home/jre/lib/charsets.jar:/Users/ernestobocini/Library/Caches/Coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_mac_hotspot_8u292b10.tar.gz/jdk8u292-b10/Contents/Home/jre/lib/jfr.jar:/Users/ernestobocini/Library/Caches/Coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_mac_hotspot_8u292b10.tar.gz/jdk8u292-b10/Contents/Home/jre/classes"/><property name="java.vendor" value="AdoptOpenJDK"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="sun.cpu.endian" value="little"/><property name="sbt.script" value="/opt/homebrew/Cellar/sbt/1.7.1/libexec/bin/sbt"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.isalist" value=""/>
+    </properties>
+          <testcase classname="forcomp.AnagramsSuite" name="wordOccurrences: abcd (3pts)" time="0.105">
+                      
+                    </testcase><testcase classname="forcomp.AnagramsSuite" name="wordOccurrences: Robert (3pts)" time="0.076">
+                      <failure message="munit.ComparisonFailException: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/test/scala/forcomp/AnagramsSuite.scala:11
+10:  test(&quot;wordOccurrences: Robert (3pts)&quot;) {
+[7m11:    assertEquals(wordOccurrences(&quot;Robert&quot;), List(('b', 1), ('e', 1), ('o', 1), ('r', 2), ('t', 1)))[0m
+12:  }
+values are not the same
+[1m=&gt; Obtained[0m
+List(
+  Tuple2(
+    _1 = 'e',
+    _2 = 1
+  ),
+  Tuple2(
+    _1 = 't',
+    _2 = 1
+  ),
+  Tuple2(
+    _1 = 'b',
+    _2 = 1
+  ),
+  Tuple2(
+    _1 = 'r',
+    _2 = 2
+  ),
+  Tuple2(
+    _1 = 'o',
+    _2 = 1
+  )
+)
+[1m=&gt; Diff[0m ([91m- obtained[0m, [92m+ expected[0m)
+   Tuple2(
+[91m-    _1 = 'e',[0m
+[92m+    _1 = 'b',[0m
+     _2 = 1
+   Tuple2(
+[91m-    _1 = 't',[0m
+[92m+    _1 = 'e',[0m
+     _2 = 1
+   Tuple2(
+[91m-    _1 = 'b',[0m
+[92m+    _1 = 'o',[0m
+     _2 = 1
+   Tuple2(
+[91m-    _1 = 'o',[0m
+[92m+    _1 = 't',[0m
+     _2 = 1" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: munit.ComparisonFailException: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/test/scala/forcomp/AnagramsSuite.scala:11
+10:  test(&quot;wordOccurrences: Robert (3pts)&quot;) {
+[7m11:    assertEquals(wordOccurrences(&quot;Robert&quot;), List(('b', 1), ('e', 1), ('o', 1), ('r', 2), ('t', 1)))[0m
+12:  }
+values are not the same
+[1m=&gt; Obtained[0m
+List(
+  Tuple2(
+    _1 = 'e',
+    _2 = 1
+  ),
+  Tuple2(
+    _1 = 't',
+    _2 = 1
+  ),
+  Tuple2(
+    _1 = 'b',
+    _2 = 1
+  ),
+  Tuple2(
+    _1 = 'r',
+    _2 = 2
+  ),
+  Tuple2(
+    _1 = 'o',
+    _2 = 1
+  )
+)
+[1m=&gt; Diff[0m ([91m- obtained[0m, [92m+ expected[0m)
+   Tuple2(
+[91m-    _1 = 'e',[0m
+[92m+    _1 = 'b',[0m
+     _2 = 1
+   Tuple2(
+[91m-    _1 = 't',[0m
+[92m+    _1 = 'e',[0m
+     _2 = 1
+   Tuple2(
+[91m-    _1 = 'b',[0m
+[92m+    _1 = 'o',[0m
+     _2 = 1
+   Tuple2(
+[91m-    _1 = 'o',[0m
+[92m+    _1 = 't',[0m
+     _2 = 1
+	at munit.FunSuite.assertEquals(FunSuite.scala:11)
+	at forcomp.AnagramsSuite.$init$$$anonfun$2(AnagramsSuite.scala:11)
+	at forcomp.AnagramsSuite.$init$$$anonfun$adapted$2(AnagramsSuite.scala:12)
+</failure>
+                    </testcase><testcase classname="forcomp.AnagramsSuite" name="sentenceOccurrences: abcd e (5pts)" time="0.005">
+                      <failure message="munit.ComparisonFailException: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/test/scala/forcomp/AnagramsSuite.scala:16
+15:  test(&quot;sentenceOccurrences: abcd e (5pts)&quot;) {
+[7m16:    assertEquals(sentenceOccurrences(List(&quot;abcd&quot;, &quot;e&quot;)), List(('a', 1), ('b', 1), ('c', 1), ('d', 1), ('e', 1)))[0m
+17:  }
+values are not the same
+[1m=&gt; Obtained[0m
+List(
+  Tuple2(
+    _1 = 'e',
+    _2 = 1
+  ),
+  Tuple2(
+    _1 = 'a',
+    _2 = 1
+  ),
+  Tuple2(
+    _1 = 'b',
+    _2 = 1
+  ),
+  Tuple2(
+    _1 = 'c',
+    _2 = 1
+  ),
+  Tuple2(
+    _1 = 'd',
+    _2 = 1
+  )
+)
+[1m=&gt; Diff[0m ([91m- obtained[0m, [92m+ expected[0m)
+   Tuple2(
+[91m-    _1 = 'e',[0m
+[91m-    _2 = 1[0m
+[91m-  ),[0m
+[91m-  Tuple2([0m
+     _1 = 'a',
+     _2 = 1
+[92m+  ),[0m
+[92m+  Tuple2([0m
+[92m+    _1 = 'e',[0m
+[92m+    _2 = 1[0m
+   )" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: munit.ComparisonFailException: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/test/scala/forcomp/AnagramsSuite.scala:16
+15:  test(&quot;sentenceOccurrences: abcd e (5pts)&quot;) {
+[7m16:    assertEquals(sentenceOccurrences(List(&quot;abcd&quot;, &quot;e&quot;)), List(('a', 1), ('b', 1), ('c', 1), ('d', 1), ('e', 1)))[0m
+17:  }
+values are not the same
+[1m=&gt; Obtained[0m
+List(
+  Tuple2(
+    _1 = 'e',
+    _2 = 1
+  ),
+  Tuple2(
+    _1 = 'a',
+    _2 = 1
+  ),
+  Tuple2(
+    _1 = 'b',
+    _2 = 1
+  ),
+  Tuple2(
+    _1 = 'c',
+    _2 = 1
+  ),
+  Tuple2(
+    _1 = 'd',
+    _2 = 1
+  )
+)
+[1m=&gt; Diff[0m ([91m- obtained[0m, [92m+ expected[0m)
+   Tuple2(
+[91m-    _1 = 'e',[0m
+[91m-    _2 = 1[0m
+[91m-  ),[0m
+[91m-  Tuple2([0m
+     _1 = 'a',
+     _2 = 1
+[92m+  ),[0m
+[92m+  Tuple2([0m
+[92m+    _1 = 'e',[0m
+[92m+    _2 = 1[0m
+   )
+	at munit.FunSuite.assertEquals(FunSuite.scala:11)
+	at forcomp.AnagramsSuite.$init$$$anonfun$3(AnagramsSuite.scala:16)
+	at forcomp.AnagramsSuite.$init$$$anonfun$adapted$3(AnagramsSuite.scala:17)
+</failure>
+                    </testcase><testcase classname="forcomp.AnagramsSuite" name="dictionaryByOccurrences.get: eat (10pts)" time="0.0">
+                      <failure message="scala.NotImplementedError: an implementation is missing" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: scala.NotImplementedError: an implementation is missing
+	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+	at forcomp.Anagrams$.dictionaryByOccurrences(Anagrams.scala:62)
+	at forcomp.AnagramsSuite.$init$$$anonfun$4(AnagramsSuite.scala:21)
+	at forcomp.AnagramsSuite.$init$$$anonfun$adapted$4(AnagramsSuite.scala:22)
+</failure>
+                    </testcase><testcase classname="forcomp.AnagramsSuite" name="wordAnagrams married (2pts)" time="0.001">
+                      <failure message="scala.NotImplementedError: an implementation is missing" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: scala.NotImplementedError: an implementation is missing
+	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+	at forcomp.Anagrams$.wordAnagrams(Anagrams.scala:65)
+	at forcomp.AnagramsSuite.$init$$$anonfun$5(AnagramsSuite.scala:26)
+	at forcomp.AnagramsSuite.$init$$$anonfun$adapted$5(AnagramsSuite.scala:27)
+</failure>
+                    </testcase><testcase classname="forcomp.AnagramsSuite" name="wordAnagrams player (2pts)" time="0.001">
+                      <failure message="scala.NotImplementedError: an implementation is missing" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: scala.NotImplementedError: an implementation is missing
+	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+	at forcomp.Anagrams$.wordAnagrams(Anagrams.scala:65)
+	at forcomp.AnagramsSuite.$init$$$anonfun$6(AnagramsSuite.scala:30)
+	at forcomp.AnagramsSuite.$init$$$anonfun$adapted$6(AnagramsSuite.scala:31)
+</failure>
+                    </testcase><testcase classname="forcomp.AnagramsSuite" name="subtract: lard - r (10pts)" time="0.001">
+                      <failure message="scala.NotImplementedError: an implementation is missing" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: scala.NotImplementedError: an implementation is missing
+	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+	at forcomp.Anagrams$.subtract(Anagrams.scala:101)
+	at forcomp.AnagramsSuite.$init$$$anonfun$7(AnagramsSuite.scala:39)
+	at forcomp.AnagramsSuite.$init$$$anonfun$adapted$7(AnagramsSuite.scala:40)
+</failure>
+                    </testcase><testcase classname="forcomp.AnagramsSuite" name="combinations: [] (8pts)" time="0.0">
+                      <failure message="scala.NotImplementedError: an implementation is missing" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: scala.NotImplementedError: an implementation is missing
+	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+	at forcomp.Anagrams$.combinations(Anagrams.scala:89)
+	at forcomp.AnagramsSuite.$init$$$anonfun$8(AnagramsSuite.scala:44)
+	at forcomp.AnagramsSuite.$init$$$anonfun$adapted$8(AnagramsSuite.scala:45)
+</failure>
+                    </testcase><testcase classname="forcomp.AnagramsSuite" name="combinations: abba (8pts)" time="0.001">
+                      <failure message="scala.NotImplementedError: an implementation is missing" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: scala.NotImplementedError: an implementation is missing
+	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+	at forcomp.Anagrams$.combinations(Anagrams.scala:89)
+	at forcomp.AnagramsSuite.$init$$$anonfun$9(AnagramsSuite.scala:60)
+	at forcomp.AnagramsSuite.$init$$$anonfun$adapted$9(AnagramsSuite.scala:61)
+</failure>
+                    </testcase><testcase classname="forcomp.AnagramsSuite" name="sentence anagrams: [] (10pts)" time="0.001">
+                      <failure message="scala.NotImplementedError: an implementation is missing" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: scala.NotImplementedError: an implementation is missing
+	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+	at forcomp.Anagrams$.sentenceAnagrams(Anagrams.scala:143)
+	at forcomp.AnagramsSuite.$init$$$anonfun$10(AnagramsSuite.scala:66)
+	at forcomp.AnagramsSuite.$init$$$anonfun$adapted$10(AnagramsSuite.scala:67)
+</failure>
+                    </testcase><testcase classname="forcomp.AnagramsSuite" name="sentence anagrams: Linux rulez (10pts)" time="0.001">
+                      <failure message="scala.NotImplementedError: an implementation is missing" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: scala.NotImplementedError: an implementation is missing
+	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+	at forcomp.Anagrams$.sentenceAnagrams(Anagrams.scala:143)
+	at forcomp.AnagramsSuite.$init$$$anonfun$11(AnagramsSuite.scala:93)
+	at forcomp.AnagramsSuite.$init$$$anonfun$adapted$11(AnagramsSuite.scala:94)
+</failure>
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>

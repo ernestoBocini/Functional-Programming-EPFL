@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-quickcheck/src/main/scala/quickcheck/QuickCheck.scala:53:2 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m53 |[0m  [34m/*property("hint4") = forAll { (h1: H, h2: H) =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m  ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  unclosed comment[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

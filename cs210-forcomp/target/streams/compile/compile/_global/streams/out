@@ -1,0 +1,5 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Deprecation Warning: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:107:7 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m107 |[0m    (x /: y)(([36mnewx[0m, [36melemy[0m) => [0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m       ^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m[33mmethod[0m [35m/:[0m in [33mtrait[0m [35mIterableOnceOps[0m is deprecated since 2.13.0: Use foldLeft instead of /:[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

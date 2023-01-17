@@ -1,0 +1,8 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-streams/src/main/scala/streams/Solver.scala:77:22 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m77 |[0m              initial.head #::: from(frontier, explored ++ (frontier.map(_._1)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m              ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m         Found:    (Solver.this.Block, List[Solver.this.Move])[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m         Required: [1m[32mLazyList[0m[1m[32m[[0m(Solver.this.Block, List[Solver.this.Move])[1m[32m][0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

@@ -1,0 +1,13 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Deprecation Warning: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala:75:91 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m75 |[0m                                                [33mcase[0m Cons(head,tail) =>  eval(caseCon,defs + (h -> head,hs -> tail))[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                                                                                      ^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m[33mmethod[0m [35m+[0m in [33mtrait[0m [35mMapOps[0m is deprecated since 2.13.0: Use ++ with an explicit collection argument instead of + with varargs[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- [E029] Pattern Match Exhaustivity Warning: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala:178:4 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m178 |[0m    e [33mmatch[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m    ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m    [33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m    It would fail on pattern case: Expr.Match(_, _, _, _, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m

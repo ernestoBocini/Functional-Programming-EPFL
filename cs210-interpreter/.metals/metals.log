@@ -1,0 +1,93 @@
+2022.12.25 10:55:20 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/.metals/lsp.trace.json or /Users/ernestobocini/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.12.25 10:55:21 INFO  logging to file /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/.metals/metals.log
+2022.12.25 10:55:21 INFO  Started: Metals version 0.11.9 in workspace '/Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter' for client Visual Studio Code 1.74.0.
+2022.12.25 10:55:22 INFO  time: initialize in 1.78s
+2022.12.25 10:55:27 WARN  Build server is not auto-connectable.
+2022.12.25 10:56:25 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 10:56:33 INFO  no build target found for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala. Using presentation compiler with project's scala-library version: 3.1.3
+2022.12.25 10:56:39 INFO  time: code lens generation in 11s
+2022.12.25 10:56:39 INFO  time: code lens generation in 5.39s
+2022.12.25 11:12:11 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:12:24 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:12:32 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:12:33 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+dic 25, 2022 11:12:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVVERTENZA: Unmatched cancel notification for request id 86
+2022.12.25 11:12:38 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:12:39 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:12:43 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:12:45 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:13:35 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:14:14 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:14:25 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:14:30 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+dic 25, 2022 11:14:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVVERTENZA: Unmatched cancel notification for request id 157
+2022.12.25 11:14:33 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:17:36 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:17:36 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:17:50 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:17:51 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:18:01 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:18:02 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:18:05 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:18:06 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:18:06 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:18:10 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:18:11 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:18:13 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:18:14 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:18:14 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:18:27 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:18:28 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:18:28 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:18:28 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:18:31 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:18:32 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:18:34 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:18:34 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:18:35 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:18:36 INFO  time: code lens generation in 1.32s
+2022.12.25 11:18:38 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:18:38 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:19:33 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:19:34 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:22:36 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:22:36 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:22:58 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:23:04 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:23:05 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:23:06 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:23:08 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:23:09 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:23:08 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:23:12 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:23:13 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:23:16 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:23:16 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:23:16 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:23:44 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:23:45 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:24:23 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:24:34 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:24:44 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:24:56 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:25:24 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:25:26 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:25:27 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:25:27 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:25:39 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.25 11:25:39 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/RecursiveLanguage.scala
+2022.12.27 18:41:58 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/Logger.scala
+2022.12.29 10:54:12 INFO  shutting down Metals
+2022.12.31 15:59:24 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/.metals/lsp.trace.json or /Users/ernestobocini/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.12.31 15:59:25 INFO  logging to file /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/.metals/metals.log
+2022.12.31 15:59:25 INFO  Started: Metals version 0.11.9 in workspace '/Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter' for client Visual Studio Code 1.74.1.
+2022.12.31 15:59:27 INFO  time: initialize in 1.77s
+2022.12.31 15:59:32 WARN  Build server is not auto-connectable.
+2022.12.31 15:59:32 WARN  no build target for: /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/Logger.scala
+dic 31, 2022 3:59:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVVERTENZA: Unmatched cancel notification for request id 1
+2022.12.31 15:59:40 INFO  no build target found for /Users/ernestobocini/epflCourses/cs-210-FP/cs210-interpreter/src/main/scala/interpreter/Logger.scala. Using presentation compiler with project's scala-library version: 3.1.3
+2022.12.31 15:59:43 INFO  time: code lens generation in 10s
+2022.12.31 16:08:29 INFO  shutting down Metals
